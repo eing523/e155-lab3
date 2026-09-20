@@ -7,6 +7,7 @@ module lab2_scanning #(parameter MAXCOUNT = 12_000_000, parameter WIDTH = 32)(
 	input logic clk,
 	input logic nreset,
 	input logic enable = 1'b1,
+	input logic [3:0] cols,
 	output logic clk_new,
 	output logic [3:0] row
 );
@@ -25,5 +26,28 @@ module lab2_scanning #(parameter MAXCOUNT = 12_000_000, parameter WIDTH = 32)(
 		   ((clk_new == 1) & (counter <= 5_999_999)) ? 4'b0010 :
 		   ((clk_new == 1) & (counter <= 11_999_999)) ? 4'b0001 :
 		   4'b0000;
-		   
+	
+	// lab 3 new stuff
+	
+	typedef enum logic [2:0] {SCAN = 3'b001, PRESS = 3'b010,
+							  HOLD = 3'b100} statetype;
+
+
+	statetype state, nextstate;
+	logic any_key;
+	
+	assign any_key = ~&cols;     // low-asserted: any column pulled down
+	
+	always_ff @(posedge clk, posedge reset)
+		if (reset) state <= SCAN;
+		else       state <= nextstate;
+		
+	always_comb
+		case (state)
+				SCAN:    nextstate = any_key ? PRESS : SCAN;
+				PRESS:   nextstate = HOLD;
+				HOLD:    nextstate = any_key ? HOLD : SCAN;
+				default: nextstate = SCAN;
+		endcase
+	
 endmodule

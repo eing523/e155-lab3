@@ -1,0 +1,12 @@
+#Start recording tcl command: 9/19/2026 22:54:07
+#Project Location: C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei; Project name: lab2_ei
+prj_open "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/lab3_ei.rdf"
+prj_remove_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/source/impl_1/lab2_7_seg_decoder.sv" "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/source/impl_1/lab2_counter.sv" "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/source/impl_1/lab2_ei.sv" "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/source/impl_1/lab2_ei_tb.sv" "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/source/impl_1/lab2_scanning.sv" "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/source/impl_1/lab2_scanning_tb.sv"
+prj_remove_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/source/impl_1/test.pdc"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/source/impl_1/lab3_7_seg_decoder.sv" "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/source/impl_1/lab3_counter.sv" "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/source/impl_1/lab3_ei.sv" "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/source/impl_1/lab3_ei_tb.sv" "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/source/impl_1/lab3_scanning.sv" "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/source/impl_1/lab3_scanning_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/source/impl_1/lab3_scanning_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/source/impl_1/lab3_ei_tb.sv"
+prj_remove_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/lab2_ei.pdc" "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/lab2_ei_scanner.pdc"
+prj_add_source -exclude "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/lab3_ei.pdc" "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/lab3_ei_scanner.pdc"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/source/impl_1/lab3_debouncer.sv"
+#Stop recording: 9/20/2026 02:10:34
