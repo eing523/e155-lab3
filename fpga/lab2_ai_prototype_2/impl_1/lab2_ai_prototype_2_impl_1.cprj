@@ -1,7 +1,0 @@
--ver "C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v"
--lib pmi -vhd "C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd"
--sver "C:/Users/eing/Documents/GitHub/e155-lab2/fpga/lab2_ai_prototype_2/source/impl_1/lab2_ai_prototype_2.sv"
--path "C:/Users/eing/Documents/GitHub/e155-lab2/fpga/lab2_ai_prototype_2" "C:/Users/eing/Documents/GitHub/e155-lab2/fpga/lab2_ai_prototype_2"
--isTop
--a "iCE40UP"
--t "iCE40UP5K"

@@ -1,3 +1,0 @@
-- Entry: 1
-  Time: Wed Sep 16 20:54:50 2026
-  Command: C:\lscc\radiant\2026.1\questasim\win64\qrun.exe -reportprogress 300 -guimode -clean -f C:/Users/eing/Documents/GitHub/e155-lab2/fpga/lab2_ei/lab2_scanning_tb/lab2_scanning_tb.f 

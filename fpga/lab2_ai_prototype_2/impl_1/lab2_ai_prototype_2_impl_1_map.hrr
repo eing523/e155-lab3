@@ -1,9 +1,0 @@
----------------------------------------------------
-Report for cell time_mux_7seg
-   Instance path: time_mux_7seg
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  LUT4	         21        100.0
-                               LUTGATE	         21        100.0
-                                 IOBUF	         24        100.0
-                                PFUREG	         15        100.0

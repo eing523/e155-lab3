@@ -1,9 +1,0 @@
--w
--gui
--msgset "C:/Users/eing/Documents/GitHub/e155-lab2/fpga/lab2_ai_prototype/promote.xml"
--n 1
--t 1
--s 1
--cores 1
--hsp m
--exp parPathBased=ON
