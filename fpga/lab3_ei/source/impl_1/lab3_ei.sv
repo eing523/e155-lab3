@@ -8,7 +8,7 @@ module lab2_ei(
 	input  logic [3:0] sw1,
 	input  logic [3:0] sw2,
 	input  logic [3:0] col,
-	input  logic       enable = 1'b1,
+	input  logic       enable,
 	output logic [6:0] seg,
 	output logic [3:0] led,
     output logic [1:0] power, // determines power

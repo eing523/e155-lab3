@@ -7,10 +7,14 @@
 module lab2_debouncer (
 	input logic clk,
 	input logic nreset,
-	input logic [3:0] sw,
+	input logic [3:0] col,
 	output logic [3:0] debounced_sw
 	
 );
+	
+	// Instantiate counter module -- 150 Hz frequency for signal on/off
+	lab2_counter #(.MAXCOUNT(160_000), .WIDTH(32)) lab2_counter_inst (.clk(clk), .nreset(nreset), .enable(enable), .counter(counter), .clk_new(clk_new_counter));
+	
 	// state register and counter
 	typedef enum logic [1:0] {IDLE, WAIT, PRESSED} statetype;
 	statetype state, nextstate;
@@ -29,11 +33,11 @@ module lab2_debouncer (
 	//next state and output	   
 	always_comb
 		case (state)
-			IDLE:    nextstate = sw ? WAIT : IDLE;
-			WAIT:    if (!sw)             nextstate = IDLE;     // a bounce
+			IDLE:    nextstate = !col ? WAIT : IDLE;
+			WAIT:    if (!col && done)             nextstate = IDLE;     // a bounce
 					 else if (counter[19]) nextstate = PRESSED;
 					 else 					nextstate = WAIT;
-			PRESSED: nextstate = sw ? PRESSED : IDLE;
+			PRESSED: nextstate = col ? PRESSED : IDLE;
 			default: nextstate = IDLE;
 		
 		endcase

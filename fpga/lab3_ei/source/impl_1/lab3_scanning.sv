@@ -6,7 +6,7 @@
 module lab2_scanning #(parameter MAXCOUNT = 12_000_000, parameter WIDTH = 32)(
 	input logic clk,
 	input logic nreset,
-	input logic enable = 1'b1,
+	input logic enable,
 	input logic [3:0] cols,
 	output logic clk_new,
 	output logic [3:0] row
@@ -17,15 +17,6 @@ module lab2_scanning #(parameter MAXCOUNT = 12_000_000, parameter WIDTH = 32)(
 	// Instantiate counter module
 	lab2_counter #(.MAXCOUNT(MAXCOUNT), .WIDTH(32)) lab2_counter_inst (.clk(clk), .nreset(nreset), .enable(enable), .counter(counter), .clk_new(clk_new));
 	
-	// row logic - 2Hz blinking
-	
-	assign row = 
-		   (nreset == 0) ? 4'b0000 :
-		   ((clk_new == 0) & (counter <= 5_999_999)) ? 4'b1000 :
-		   ((clk_new == 0) & (counter <= 11_999_999)) ? 4'b0100 :
-		   ((clk_new == 1) & (counter <= 5_999_999)) ? 4'b0010 :
-		   ((clk_new == 1) & (counter <= 11_999_999)) ? 4'b0001 :
-		   4'b0000;
 	
 	// lab 3 new stuff
 	
