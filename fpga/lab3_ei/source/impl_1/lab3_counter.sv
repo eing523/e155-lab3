@@ -7,10 +7,8 @@ module lab3_counter #(parameter MAXCOUNT = 480_000, parameter WIDTH = 32, parame
 	input  logic clk,
 	input  logic nreset,
 	input  logic enable,
-	output logic clk_new,
 	output logic [WIDTH-1:0] counter,
-	output logic out,
-	output logic done
+	output logic clk_new
 );
 	
 	logic clk_state;
@@ -31,9 +29,6 @@ module lab3_counter #(parameter MAXCOUNT = 480_000, parameter WIDTH = 32, parame
 			else begin
 					count_state <= count_state + 1'b1;
 				end
-			end
-		else begin
-				count_state <= count_state + 0;
 			end
 		end
 		

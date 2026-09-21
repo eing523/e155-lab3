@@ -9,7 +9,6 @@ module lab3_scanning #(parameter MAXCOUNT = 12_000_000, parameter WIDTH = 32)(
 	input logic clk,
 	input logic nreset,
 	input logic enable,
-	input logic [3:0] cols,
 	output logic clk_new,
 	output logic [3:0] row
 );

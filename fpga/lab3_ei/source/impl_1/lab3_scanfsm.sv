@@ -3,13 +3,12 @@
 // Date of creation: 9/21/2026
 // Summary: Scanfsm module for E155 Lab 3, which shows the keypad scanner FSM
 
-module lab3_scanfsm #(parameter MAXCOUNT = 160_000, parameter WIDTH = 32)(
+module lab3_scanfsm (
 	input logic clk,
 	input logic nreset,
-	input logic enable,
+	input logic debounce_en,
 	input logic [3:0] cols,
-	output logic clk_new,
-	output logic [3:0] row
+	output logic update
 );
 
 	
@@ -29,10 +28,12 @@ module lab3_scanfsm #(parameter MAXCOUNT = 160_000, parameter WIDTH = 32)(
 		
 	always_comb
 		case (state)
-				SCAN:    nextstate = any_key ? PRESS : SCAN;
+				SCAN:    nextstate = (debounce_en && any_key) ? PRESS : SCAN;
 				PRESS:   nextstate = HOLD;
 				HOLD:    nextstate = any_key ? HOLD : SCAN;
 				default: nextstate = SCAN;
 		endcase
-
+	
+	assign update = (state == PRESS);
+	
 endmodule

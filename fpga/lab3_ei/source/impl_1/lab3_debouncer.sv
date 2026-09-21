@@ -2,7 +2,7 @@
 // eing@g.hmc.edu
 // Date of creation: 9/20/2026
 // Summary: Debouncer module for E155 Lab 3, which goes high only after col has been continuously high for N clock cycles.
-// It returns low as soon as sw goes low
+// It returns low as soon as sw goes low. This is an FSM.
 
 module lab3_debouncer (
 	input logic clk,

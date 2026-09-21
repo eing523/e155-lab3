@@ -1,10 +1,7 @@
 // Emily Ing
 // eing@g.hmc.edu
 // Date of creation: 9/20/2026
-// Summary: Debouncer module for E155 Lab 3, which goes high only after sw has been continuously high for N clock cycles.
-// It returns low as soon as sw goes low
-
-// DONT USE???
+// Summary: A flip-flop for E155 Lab 3 press value module.
 
 module lab3_presslogic #(parameter WIDTH = 4)(
 	input logic clk,
