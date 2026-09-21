@@ -1,0 +1,100 @@
+----------------------------------------------------------------------
+Report for cell lab3_ei.TECH
+Register bits:  85 of 5280 (1.610%)
+I/O cells:      46
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2        34          100.0
+                            FD1P3XZ        85          100.0
+                         HSOSC_CORE         1          100.0
+                                 IB        14          100.0
+                               LUT4       159          100.0
+                                 OB        32          100.0
+SUB MODULES
+                 lab3_7_seg_decoder         1
+      lab3_counter(MAXCOUNT=200000)         1
+      lab3_counter(MAXCOUNT=524288)         1
+                   lab3_press_value         1
+                    lab3_presslogic         1
+                 lab3_presslogic_U0         1
+                      lab3_scanning         1
+                  lab3_synchronizer         1
+               lab3_synchronizer_U1         1
+                              TOTAL       334
+----------------------------------------------------------------------
+Report for cell lab3_scanning.v1
+Instance Path : lab3_scanning_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        17           50.0
+                            FD1P3XZ        32           37.6
+                               LUT4        60           37.7
+SUB MODULES
+      lab3_counter(MAXCOUNT=524288)         1
+                              TOTAL       110
+----------------------------------------------------------------------
+Report for cell lab3_counter(MAXCOUNT=524288).v1
+Instance Path : lab3_scanning_inst.lab2_counter_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        17           50.0
+                            FD1P3XZ        32           37.6
+                               LUT4        43           27.0
+                              TOTAL        92
+----------------------------------------------------------------------
+Report for cell lab3_synchronizer_U1.v1
+Instance Path : lab3_synchronizer_col
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3XZ         8            9.4
+                              TOTAL         8
+----------------------------------------------------------------------
+Report for cell lab3_press_value.v1
+Instance Path : lab3_press_value_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3XZ         8            9.4
+                               LUT4        31           19.5
+SUB MODULES
+                    lab3_presslogic         1
+                 lab3_presslogic_U0         1
+                              TOTAL        41
+----------------------------------------------------------------------
+Report for cell lab3_presslogic.v1
+Instance Path : lab3_press_value_inst.ff_r3
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3XZ         4            4.7
+                               LUT4         4            2.5
+                              TOTAL         8
+----------------------------------------------------------------------
+Report for cell lab3_presslogic_U0.v1
+Instance Path : lab3_press_value_inst.ff_r2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3XZ         4            4.7
+                               LUT4         4            2.5
+                              TOTAL         8
+----------------------------------------------------------------------
+Report for cell lab3_7_seg_decoder.v1
+Instance Path : lab2_7_seg_decoder_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         7            4.4
+                              TOTAL         7
+----------------------------------------------------------------------
+Report for cell lab3_synchronizer.v1
+Instance Path : lab3_synchronizer_row
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3XZ         4            4.7
+                              TOTAL         4
+----------------------------------------------------------------------
+Report for cell lab3_counter(MAXCOUNT=200000).v1
+Instance Path : lab3_counter_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        17           50.0
+                            FD1P3XZ        33           38.8
+                               LUT4        45           28.3
+                              TOTAL        95

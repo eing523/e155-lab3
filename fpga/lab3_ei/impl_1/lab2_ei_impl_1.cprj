@@ -1,8 +1,0 @@
--ver "C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v"
--lib pmi -vhd "C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd"
--sver "C:/Users/eing/Documents/GitHub/e155-lab2/fpga/lab2_ei/source/impl_1/lab2_7_seg_decoder.sv" "C:/Users/eing/Documents/GitHub/e155-lab2/fpga/lab2_ei/source/impl_1/lab2_counter.sv" "C:/Users/eing/Documents/GitHub/e155-lab2/fpga/lab2_ei/source/impl_1/lab2_ei.sv" "C:/Users/eing/Documents/GitHub/e155-lab2/fpga/lab2_ei/source/impl_1/lab2_scanning.sv"
--path "C:/Users/eing/Documents/GitHub/e155-lab2/fpga/lab2_ei" "C:/Users/eing/Documents/GitHub/e155-lab2/fpga/lab2_ei"
--top lab2_ei
--isTop
--a "iCE40UP"
--t "iCE40UP5K"
