@@ -1,10 +1,10 @@
 // Emily Ing
 // eing@g.hmc.edu
-// Date of creation: 9/12/2026
-// Summary: Module for E155 Lab 2, which contains the seven-segment display decoder.
+// Date of creation: 9/19/2026
+// Summary: Module for E155 Lab 3, which contains the seven-segment display decoder.
 // Switch-to-7-segment logic
 
-module lab2_7_seg_decoder(
+module lab3_7_seg_decoder(
 	input   logic [3:0] s, // DIP switches
 	output  logic [6:0] seg // segments of the 7-segment display	
 );

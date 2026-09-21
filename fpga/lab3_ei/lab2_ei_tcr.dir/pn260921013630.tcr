@@ -1,0 +1,8 @@
+#Start recording tcl command: 9/20/2026 17:25:02
+#Project Location: C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei; Project name: lab2_ei
+prj_open "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/lab3_ei.rdf"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/source/impl_1/lab3_press_value.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/source/impl_1/lab3_presslogic.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/source/impl_1/lab3_synchronizer.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei/source/impl_1/lab3_scanfsm.sv"
+#Stop recording: 9/21/2026 01:36:30
