@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BaliMessageLog>
-    <Task name="Map">
-        <Message>
-            <ID>51001122</ID>
-            <Severity>4096</Severity>
-        </Message>
-    </Task>
     <Task name="Synthesis">
         <Message>
             <ID>35831038</ID>
@@ -853,6 +847,22 @@
             <Navigation>7</Navigation>
         </Message>
         <Message>
+            <ID>35931002</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_ei.sv(32): </Dynamic>
+            <Dynamic>sw1[3]</Dynamic>
+            <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_ei.sv</Navigation>
+            <Navigation>32</Navigation>
+        </Message>
+        <Message>
+            <ID>35931002</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_ei.sv(33): </Dynamic>
+            <Dynamic>sw2[3]</Dynamic>
+            <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_ei.sv</Navigation>
+            <Navigation>33</Navigation>
+        </Message>
+        <Message>
             <ID>35001797</ID>
             <Severity>1</Severity>
         </Message>
@@ -939,73 +949,71 @@
         <Message>
             <ID>35931002</ID>
             <Severity>16</Severity>
-            <Dynamic>../source/impl_1/lab3_scanning.sv(10): </Dynamic>
-            <Dynamic>\lab3_scanning_inst/clk_new</Dynamic>
-            <Navigation>../source/impl_1/lab3_scanning.sv</Navigation>
-            <Navigation>10</Navigation>
+            <Dynamic>../source/impl_1/lab3_ei.sv(32): </Dynamic>
+            <Dynamic>sw1[3]</Dynamic>
+            <Navigation>../source/impl_1/lab3_ei.sv</Navigation>
+            <Navigation>32</Navigation>
         </Message>
         <Message>
-            <ID>35001747</ID>
-            <Severity>256</Severity>
-            <Dynamic>driving \lab3_synchronizer_row/n1[3:0]</Dynamic>
-            <Dynamic>1, 0</Dynamic>
+            <ID>35931002</ID>
+            <Severity>16</Severity>
+            <Dynamic>../source/impl_1/lab3_ei.sv(33): </Dynamic>
+            <Dynamic>sw2[3]</Dynamic>
+            <Navigation>../source/impl_1/lab3_ei.sv</Navigation>
+            <Navigation>33</Navigation>
         </Message>
         <Message>
-            <ID>35001747</ID>
-            <Severity>256</Severity>
-            <Dynamic>driving row_sync[3:0]</Dynamic>
-            <Dynamic>1, 0</Dynamic>
+            <ID>35931002</ID>
+            <Severity>16</Severity>
+            <Dynamic>../source/impl_1/lab3_ei.sv(33): </Dynamic>
+            <Dynamic>sw2[3]</Dynamic>
+            <Navigation>../source/impl_1/lab3_ei.sv</Navigation>
+            <Navigation>33</Navigation>
         </Message>
         <Message>
-            <ID>35001747</ID>
+            <ID>35002028</ID>
             <Severity>256</Severity>
-            <Dynamic>\lab3_press_value_inst/ff_r0/q_out</Dynamic>
-            <Dynamic>3, 2, 1, 10</Dynamic>
+            <Dynamic>col[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002028</ID>
+            <Severity>256</Severity>
+            <Dynamic>col[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002028</ID>
+            <Severity>256</Severity>
+            <Dynamic>col[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002028</ID>
+            <Severity>256</Severity>
+            <Dynamic>col[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002028</ID>
+            <Severity>256</Severity>
+            <Dynamic>col[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002028</ID>
+            <Severity>256</Severity>
+            <Dynamic>col[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002028</ID>
+            <Severity>256</Severity>
+            <Dynamic>col[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002028</ID>
+            <Severity>256</Severity>
+            <Dynamic>col[0]</Dynamic>
         </Message>
         <Message>
             <ID>35002062</ID>
             <Severity>16</Severity>
             <Dynamic>nreset</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>sw1[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>sw1[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>sw1[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>sw1[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>sw2[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>sw2[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>sw2[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>sw2[0]</Dynamic>
         </Message>
         <Message>
             <ID>35002062</ID>
@@ -1066,26 +1074,6 @@
             <ID>35002062</ID>
             <Severity>16</Severity>
             <Dynamic>seg[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>led[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>led[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>led[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>led[0]</Dynamic>
         </Message>
         <Message>
             <ID>35002062</ID>
@@ -1157,40 +1145,129 @@
             <Severity>16</Severity>
             <Dynamic>d0[0]</Dynamic>
         </Message>
+    </Task>
+    <Task name="Map">
         <Message>
-            <ID>35002062</ID>
+            <ID>71003020</ID>
             <Severity>16</Severity>
-            <Dynamic>binary_val[6]</Dynamic>
+            <Dynamic>col[3]</Dynamic>
         </Message>
         <Message>
-            <ID>35002062</ID>
+            <ID>71003020</ID>
             <Severity>16</Severity>
-            <Dynamic>binary_val[5]</Dynamic>
+            <Dynamic>col[2]</Dynamic>
         </Message>
         <Message>
-            <ID>35002062</ID>
+            <ID>71003020</ID>
             <Severity>16</Severity>
-            <Dynamic>binary_val[4]</Dynamic>
+            <Dynamic>col[1]</Dynamic>
         </Message>
         <Message>
-            <ID>35002062</ID>
+            <ID>71003020</ID>
             <Severity>16</Severity>
-            <Dynamic>binary_val[3]</Dynamic>
+            <Dynamic>col[0]</Dynamic>
         </Message>
         <Message>
-            <ID>35002062</ID>
+            <ID>71003020</ID>
             <Severity>16</Severity>
-            <Dynamic>binary_val[2]</Dynamic>
+            <Dynamic>col[3]</Dynamic>
         </Message>
         <Message>
-            <ID>35002062</ID>
+            <ID>71003020</ID>
             <Severity>16</Severity>
-            <Dynamic>binary_val[1]</Dynamic>
+            <Dynamic>col[2]</Dynamic>
         </Message>
         <Message>
-            <ID>35002062</ID>
+            <ID>71003020</ID>
             <Severity>16</Severity>
-            <Dynamic>binary_val[0]</Dynamic>
+            <Dynamic>col[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>col[0]</Dynamic>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>col[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>col[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>col[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>col[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>col[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>col[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>col[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>col[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>col[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>col[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>col[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>col[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>col[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>col[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>col[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>col[0]</Dynamic>
         </Message>
     </Task>
 </BaliMessageLog>

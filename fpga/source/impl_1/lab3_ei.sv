@@ -6,17 +6,12 @@
 
 module lab3_ei(
 	input  logic       nreset,
-	input  logic [3:0] sw1,
-	input  logic [3:0] sw2,
 	input  logic [3:0] col,
 	input  logic       enable,
-	input logic debounce_en,
 	output logic [6:0] seg,
-	output logic [3:0] led,
     output logic [1:0] power, // determines power
 	output logic [3:0] row,
-	output logic [3:0] d1, d0,
-	output logic [6:0] binary_val
+	output logic [3:0] d1, d0
 
 );
 	
@@ -32,6 +27,11 @@ module lab3_ei(
 	logic press;
 	logic [15:0] key;
 	logic update;
+	logic debounce_en;
+	logic [6:0] binary_val;
+	logic [3:0] sw1;
+	logic [3:0] sw2;
+
 
 	// Internal high-speed oscillator
 	HSOSC hf_osc (.CLKHFPU(1'b1), .CLKHFEN(1'b1), .CLKHF(clk));
@@ -56,12 +56,6 @@ module lab3_ei(
 	
 	// Instantiate scanning FSM module
 	lab3_scanfsm lab3_scanfsm_inst(.clk(clk), .nreset(nreset), .debounce_en(debounce_en), .cols(col), .update(update));
-	
-	// column to led assign -- keep or not?
-	assign led[3] = (col[3] == 1'b0);
-	assign led[2] = (col[2] == 1'b0);
-	assign led[1] = (col[1] == 1'b0);
-    assign led[0] = (col[0] == 1'b0);
 
 	// power mux
 	assign power = (clk_new_counter == 1'b0) ? 2'b10 : 2'b01;
@@ -74,7 +68,7 @@ module lab3_ei(
 	
 	
 	// Instantiate seven-segment display decoder module
-	lab3_7_seg_decoder lab2_7_seg_decoder_inst(s, seg);
+	lab3_7_seg_decoder lab3_7_seg_decoder_inst(s, seg);
 	
 	
 	

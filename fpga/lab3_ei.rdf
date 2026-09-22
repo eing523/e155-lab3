@@ -39,9 +39,6 @@
         <Source name="lab3_ei.pdc" type="Physical Constraints File" type_short="PDC" excluded="TRUE">
             <Options/>
         </Source>
-        <Source name="lab3_ei_scanner.pdc" type="Physical Constraints File" type_short="PDC" excluded="TRUE">
-            <Options/>
-        </Source>
         <Source name="source/impl_1.xcf" type="Programming Project File" type_short="Programming">
             <Options/>
         </Source>

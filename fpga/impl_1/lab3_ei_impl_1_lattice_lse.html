@@ -48,7 +48,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2026 Lattice Semiconductor Corporation,  All rights reserved.
-Mon Sep 21 15:47:07 2026
+Mon Sep 21 17:50:07 2026
 
 
 Command Line:  C:\lscc\radiant\2026.1\ispfpga\bin\nt64\synthesis.exe -f C:/Users/eing/Documents/GitHub/e155-lab3/fpga/impl_1/lab3_ei_impl_1_lattice.synproj -logfile lab3_ei_impl_1_lattice.srp -gui -msgset C:/Users/eing/Documents/GitHub/e155-lab3/fpga/promote.xml 
@@ -200,6 +200,8 @@ INFO <35901018> - synthesis: ../source/impl_1/lab3_press_value.sv(7): compiling 
 INFO <35901018> - synthesis: ../source/impl_1/lab3_presslogic.sv(6): compiling module lab3_presslogic. VERI-1018
 INFO <35901018> - synthesis: ../source/impl_1/lab3_scanfsm.sv(6): compiling module lab3_scanfsm. VERI-1018
 INFO <35901018> - synthesis: ../source/impl_1/lab3_7_seg_decoder.sv(7): compiling module lab3_7_seg_decoder. VERI-1018
+WARNING <35931002> - synthesis: ../source/impl_1/lab3_ei.sv(32): net sw1[3] does not have a driver. VDB-1002
+WARNING <35931002> - synthesis: ../source/impl_1/lab3_ei.sv(33): net sw2[3] does not have a driver. VDB-1002
 
 <A name="lse_parameter"></A><B><U><big>Parameter Setting</big></U></B>
 
@@ -233,25 +235,27 @@ INFO <35901018> - synthesis: ../source/impl_1/lab3_7_seg_decoder.sv(7): compilin
 		WIDTH                     4
 
 [Parameter Setting Section End]
-WARNING <35931002> - synthesis: ../source/impl_1/lab3_scanning.sv(10): net \lab3_scanning_inst/clk_new does not have a driver. VDB-1002
-######## Missing driver on net \lab3_scanning_inst/clk_new. Patching with GND.
+WARNING <35931002> - synthesis: ../source/impl_1/lab3_ei.sv(33): net sw2[3] does not have a driver. VDB-1002
+CRITICAL <35002028> - synthesis: I/O port's net has no driver and is unused: col[3]
+CRITICAL <35002028> - synthesis: I/O port's net has no driver and is unused: col[2]
+CRITICAL <35002028> - synthesis: I/O port's net has no driver and is unused: col[1]
+CRITICAL <35002028> - synthesis: I/O port's net has no driver and is unused: col[0]
+######## Missing driver on net sw1[3]. Patching with GND.
+######## Missing driver on net sw1[2]. Patching with GND.
+######## Missing driver on net sw1[1]. Patching with GND.
+######## Missing driver on net sw1[0]. Patching with GND.
+######## Missing driver on net sw2[3]. Patching with GND.
+######## Missing driver on net sw2[2]. Patching with GND.
+######## Missing driver on net sw2[1]. Patching with GND.
+######## Missing driver on net sw2[0]. Patching with GND.
 
 
 
-CRITICAL <35001747> - synthesis: Bit(s) of register driving \lab3_synchronizer_row/n1[3:0] stuck at '0': 1, 0
-CRITICAL <35001747> - synthesis: Bit(s) of register driving row_sync[3:0] stuck at '0': 1, 0
-Removed duplicate sequential element \lab3_press_value_inst/ff_r1/q_out(4 bit), because it is equivalent to \lab3_press_value_inst/ff_r0/q_out
-
-CRITICAL <35001747> - synthesis: Bit(s) of register \lab3_press_value_inst/ff_r0/q_out stuck at '0': 3, 2, 1, 10
+CRITICAL <35002028> - synthesis: I/O port's net has no driver and is unused: col[3]
+CRITICAL <35002028> - synthesis: I/O port's net has no driver and is unused: col[2]
+CRITICAL <35002028> - synthesis: I/O port's net has no driver and is unused: col[1]
+CRITICAL <35002028> - synthesis: I/O port's net has no driver and is unused: col[0]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: nreset
-WARNING <35002062> - synthesis: Port rejected for I/O register mapping: sw1[3]
-WARNING <35002062> - synthesis: Port rejected for I/O register mapping: sw1[2]
-WARNING <35002062> - synthesis: Port rejected for I/O register mapping: sw1[1]
-WARNING <35002062> - synthesis: Port rejected for I/O register mapping: sw1[0]
-WARNING <35002062> - synthesis: Port rejected for I/O register mapping: sw2[3]
-WARNING <35002062> - synthesis: Port rejected for I/O register mapping: sw2[2]
-WARNING <35002062> - synthesis: Port rejected for I/O register mapping: sw2[1]
-WARNING <35002062> - synthesis: Port rejected for I/O register mapping: sw2[0]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: col[3]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: col[2]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: col[1]
@@ -264,10 +268,6 @@ WARNING <35002062> - synthesis: Port rejected for I/O register mapping: seg[3]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: seg[2]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: seg[1]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: seg[0]
-WARNING <35002062> - synthesis: Port rejected for I/O register mapping: led[3]
-WARNING <35002062> - synthesis: Port rejected for I/O register mapping: led[2]
-WARNING <35002062> - synthesis: Port rejected for I/O register mapping: led[1]
-WARNING <35002062> - synthesis: Port rejected for I/O register mapping: led[0]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: power[1]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: power[0]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: row[3]
@@ -282,25 +282,18 @@ WARNING <35002062> - synthesis: Port rejected for I/O register mapping: d0[3]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: d0[2]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: d0[1]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: d0[0]
-WARNING <35002062> - synthesis: Port rejected for I/O register mapping: binary_val[6]
-WARNING <35002062> - synthesis: Port rejected for I/O register mapping: binary_val[5]
-WARNING <35002062> - synthesis: Port rejected for I/O register mapping: binary_val[4]
-WARNING <35002062> - synthesis: Port rejected for I/O register mapping: binary_val[3]
-WARNING <35002062> - synthesis: Port rejected for I/O register mapping: binary_val[2]
-WARNING <35002062> - synthesis: Port rejected for I/O register mapping: binary_val[1]
-WARNING <35002062> - synthesis: Port rejected for I/O register mapping: binary_val[0]
 
 
 <A name="lse_area"></A><B><U><big>Area Report</big></U></B>
 
 ################### Begin Area Report (lab3_ei)######################
-Number of register bits => 85 of 5280 (1 % )
+Number of register bits => 66 of 5280 (1 % )
 CCU2 => 34
-FD1P3XZ => 85
+FD1P3XZ => 66
 HSOSC_CORE => 1
-IB => 14
-LUT4 => 159
-OB => 32
+IB => 2
+LUT4 => 112
+OB => 21
 ################### End Area Report ##################
 Number of odd-length carry chains : 0
 Number of even-length carry chains : 2
@@ -316,16 +309,16 @@ Clock Enable Nets
 Number of Clock Enables: 0
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : lab3_counter_inst/n294, loads : 74
-  Net : lab3_scanning_inst/lab2_counter_inst/n296, loads : 63
+  Net : lab3_counter_inst/n267, loads : 65
+  Net : lab3_scanning_inst/lab2_counter_inst/n3, loads : 64
   Net : lab3_counter_inst/n4, loads : 47
-  Net : lab3_scanning_inst/lab2_counter_inst/n1444, loads : 41
-  Net : lab3_scanning_inst/lab2_counter_inst/n40[31], loads : 19
+  Net : lab3_scanning_inst/lab2_counter_inst/n4_adj_73, loads : 42
   Net : lab3_counter_inst/n40[31], loads : 19
-  Net : lab3_scanning_inst/lab2_counter_inst/n40[29], loads : 18
-  Net : lab3_scanning_inst/lab2_counter_inst/n1215, loads : 18
-  Net : lab3_scanning_inst/lab2_counter_inst/n167[31], loads : 18
-  Net : lab3_scanning_inst/lab2_counter_inst/n40[30], loads : 18
+  Net : lab3_scanning_inst/lab2_counter_inst/n40[31], loads : 19
+  Net : lab3_counter_inst/n40[30], loads : 18
+  Net : lab3_counter_inst/n40[29], loads : 18
+  Net : lab3_counter_inst/n968, loads : 18
+  Net : lab3_counter_inst/n167[31], loads : 18
 ################### End Clock Report ##################
 
 
@@ -343,7 +336,7 @@ Peak Memory Usage: 91 MB
 Total CPU Time: 0 secs 
 Total REAL Time: 0 secs 
 --------------------------------------------------------------
-Checksum -- synthesis -- netlist: e3f1cfe9b1316626ca71d1e538454d7bb72a7fa4
+Checksum -- synthesis -- netlist: 96e19f3194ea35170643e495adb5c0d4c182
 
 
 
