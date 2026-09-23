@@ -15,7 +15,7 @@ module lab3_scanning (
 	logic [24:0] scan_count;
 	logic clk_new;
 
-	// Instantiate counter module -- 10.9 ms for 48 MHz for signal on/off FIX TODO
+	// Instantiate counter module
 	lab3_counter #(MAXCOUNT, 25) lab2_counter_inst (.clk(clk), .nreset(nreset), .enable(enable), .counter(scan_count), .clk_new(clk_new));
 	
 	// row logic - 2Hz blinking

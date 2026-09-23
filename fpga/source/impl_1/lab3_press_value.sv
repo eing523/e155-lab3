@@ -29,7 +29,7 @@ module lab3_press_value (
 
 	assign read = (press_count == 17'd50000);
 
-	// Instantiate counter module -- 10.9 ms for 48 MHz for signal on/off
+	// Instantiate counter module counting fast enough so that numbers show properly
 	lab3_counter #(.MAXCOUNT(178000), .WIDTH(20)) lab3_counter_inst (.clk(clk), .nreset(nreset), .enable(1'b1), .counter(press_count), .clk_new(clk_new));
 
 	// sequential logic block for a hardware flip-flop register

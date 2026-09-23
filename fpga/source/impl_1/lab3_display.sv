@@ -15,7 +15,7 @@ module lab3_display(
 
 	logic [3:0] s_mid;
 
-// delay binary_val by a clk cycle so that it comes in at the same time as when update is triggered
+// making s_mid sync with binary_val so updates are syncronized
 	always_ff @(posedge clk)
 		if (~nreset) begin s_mid <= 4'b0; end
 		else

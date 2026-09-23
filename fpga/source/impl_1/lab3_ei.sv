@@ -26,8 +26,6 @@ module lab3_ei(
 	logic [3:0] binary_val, s0, s1;
 	
 	logic press;
-	// logic [1:0] index;
-	// logic digit_clk; // new clock for the display logic
 
 
 	// Internal high-speed oscillator
