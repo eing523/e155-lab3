@@ -3,7 +3,9 @@
 // Date of creation: 9/12/2026
 // Summary: Scanning module for E155 Lab 3, which asserts signals on each row one at a time, then observes the values of the columns.
 
-module lab3_scanning #(parameter MAXCOUNT = 12_000_000, parameter WIDTH = 20)(
+
+// if no work come back here
+module lab3_scanning #(parameter MAXCOUNT = 524_288, parameter WIDTH = 20)(
 	input logic clk,
 	input logic nreset,
 	input logic enable,
@@ -11,15 +13,14 @@ module lab3_scanning #(parameter MAXCOUNT = 12_000_000, parameter WIDTH = 20)(
 );
 	
 	logic [WIDTH-1:0] scan_count;
-	
+	logic clk_new;
 
 	// Instantiate counter module -- 10.9 ms for 48 MHz for signal on/off FIX TODO
-	lab3_counter #(.MAXCOUNT(524_288), .WIDTH(20)) lab2_counter_inst (.clk(clk), .nreset(nreset), .enable(enable), .counter(scan_count));
+	lab3_counter #(.MAXCOUNT(524_288), .WIDTH(25)) lab2_counter_inst (.clk(clk), .nreset(nreset), .enable(enable), .counter(scan_count), .clk_new(clk_new));
 	
 	// row logic - 2Hz blinking
 	
 	assign row = 
-		   (nreset == 0) ? 4'b0000 :
 		   (scan_count < (MAXCOUNT/4)) ? 4'b1000 :
 		   (scan_count < (MAXCOUNT/2)) ? 4'b0100 :
 		   (scan_count < ((MAXCOUNT*3)/4)) ? 4'b0010 :

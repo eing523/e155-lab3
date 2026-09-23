@@ -7,24 +7,23 @@
 module lab3_debouncer (
 	input logic clk,
 	input logic nreset,
-	input logic enable,
-	input logic [3:0] col,
+	input logic [15:0] key,
 	output logic debounce_en
 
 );
 
 	logic [19:0] counter;
 	
-	logic clk_new_counter;
+	logic clk_new;
 	logic count_nreset;
-	logic enable_new;
+	logic count_enable;
 	
 	// state register and counter
 	typedef enum logic [1:0] {IDLE, WAIT, PRESSED} statetype;
 	statetype state, nextstate;
 	
 	// Instantiate counter module -- 10.9 ms for 48 MHz for signal on/off
-	lab3_counter #(.MAXCOUNT(524_289), .WIDTH(20)) lab3_counter_inst (.clk(clk), .nreset(count_nreset), .enable(enable_new), .counter(counter));
+	lab3_counter #(.MAXCOUNT(524_289), .WIDTH(20)) lab3_counter_inst (.clk(clk), .nreset(~(counter[19] | ~nreset | (state == IDLE))), .enable(count_enable), .counter(counter), .clk_new(clk_new));
 	
 	always_ff @(posedge clk)
 		if (~nreset) state <= IDLE;
@@ -33,17 +32,17 @@ module lab3_debouncer (
 	//next state and output	   
 	always_comb
 		case (state)
-			IDLE:    nextstate = (~(col == 4'b1111)) ? WAIT : IDLE;
-			WAIT:    if (col == 4'b1111)             nextstate = IDLE;     // a bounce
-					 else if (counter[19] & (~(col == 4'b1111))) nextstate = PRESSED;
+			IDLE:    nextstate = (key == 16'b0000000000000000) ? IDLE : WAIT;
+			WAIT:    if (key == 16'b0000000000000000)             nextstate = IDLE;     // a bounce
+					 else if (counter[19]) nextstate = PRESSED;
 					 else 					nextstate = WAIT;
-			PRESSED: nextstate = (col == 4'b1111) ? IDLE : PRESSED;
+			PRESSED: nextstate = (key == 16'b0000000000000000) ? IDLE : PRESSED;
 			default: nextstate = IDLE;
 		
 		endcase
 		
 	assign debounce_en = (state == PRESSED);
 	assign count_nreset = (~(state == IDLE));
-	assign enable_new = (state == WAIT);
+	assign count_enable = (state == WAIT);
 	
 endmodule
