@@ -3,7 +3,7 @@
 // Date of creation: 9/19/2026
 // Summary: Module for E155 Lab 3, which contains the counter.
 
-module lab3_counter #(parameter MAXCOUNT = 480_000, parameter WIDTH = 32)(
+module lab3_counter #(parameter MAXCOUNT = 380_000, parameter WIDTH = 32)(
 	input  logic clk,
 	input  logic nreset,
 	input  logic enable,

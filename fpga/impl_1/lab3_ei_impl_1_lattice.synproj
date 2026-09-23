@@ -49,6 +49,8 @@
 -sver "../source/impl_1/lab3_presslogic.sv"
 -sver "../source/impl_1/lab3_synchronizer.sv"
 -sver "../source/impl_1/lab3_scanfsm.sv"
+-sver "../source/impl_1/lab3_mux.sv"
+-sver "../source/impl_1/lab3_display.sv"
 -path ".."
 -top lab3_ei
 # Output Configuration

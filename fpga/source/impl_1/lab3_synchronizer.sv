@@ -13,7 +13,7 @@ module lab3_synchronizer #(parameter WIDTH = 4)(
 	
 	always_ff @(posedge clk)
 		if (~nreset) begin
-			  n1 <= 0;
+			  mid <= 0;
 			  q <= 0;
 		end
 		else begin

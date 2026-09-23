@@ -7,7 +7,7 @@ module lab3_scanfsm (
 	input logic clk,
 	input logic nreset,
 	//input logic [3:0] row_sync, col_sync,
-	input logic debounce_en,
+	input logic debounce_en, press,
 	//input logic [3:0] cols,
 	output logic update
 	//output logic [3:0] row
@@ -20,9 +20,8 @@ module lab3_scanfsm (
 	//logic any_key;
 	//assign any_key = ~&cols;     // low-asserted: any column pulled down
 	statetype state, nextstate;
-	logic [3:0] binary_val;
-	logic press;
-	logic [1:0] index;
+	//logic [3:0] binary_val;
+	//logic [1:0] index;
 	
 // Instantiate press value (logic) module
 	//lab3_press_value lab3_press_value_inst (.clk(clk), .nreset(nreset), .row_sync(row_sync), .col_sync(col_sync), .press(press), .binary_val(binary_val), .index(index));	
@@ -38,7 +37,7 @@ module lab3_scanfsm (
 		
 	always_comb
 		case (state)
-				SCAN:    nextstate = (d_en & press) ? PRESS : SCAN;
+				SCAN:    nextstate = (debounce_en & press) ? PRESS : SCAN;
 				PRESS:   nextstate = HOLD;
 				HOLD:    nextstate = (press) ? HOLD : SCAN;
 				//HOLD:    nextstate = (~col_sync[index]) ? HOLD : SCAN;

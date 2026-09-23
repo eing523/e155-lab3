@@ -23,7 +23,7 @@ module lab3_debouncer (
 	statetype state, nextstate;
 	
 	// Instantiate counter module -- 10.9 ms for 48 MHz for signal on/off
-	lab3_counter #(.MAXCOUNT(524_289), .WIDTH(20)) lab3_counter_inst (.clk(clk), .nreset(~(counter[19] | ~nreset | (state == IDLE))), .enable(count_enable), .counter(counter), .clk_new(clk_new));
+	lab3_counter #(.MAXCOUNT(324_289), .WIDTH(20)) lab3_counter_inst (.clk(clk), .nreset(~(counter[19] | ~nreset | (state == IDLE))), .enable(count_enable), .counter(counter), .clk_new(clk_new));
 	
 	always_ff @(posedge clk)
 		if (~nreset) state <= IDLE;

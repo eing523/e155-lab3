@@ -5,7 +5,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2026 Lattice Semiconductor Corporation,  All rights reserved.
-Tue Sep 22 02:22:40 2026
+Wed Sep 23 00:24:50 2026
 
 
 Command Line:  C:\lscc\radiant\2026.1\ispfpga\bin\nt64\synthesis.exe -f C:/Users/eing/Documents/GitHub/e155-lab3/fpga/impl_1/lab3_ei_impl_1_lattice.synproj -logfile lab3_ei_impl_1_lattice.srp -gui -msgset C:/Users/eing/Documents/GitHub/e155-lab3/fpga/promote.xml 
@@ -127,6 +127,8 @@ Verilog design file: ../source/impl_1/lab3_press_value.sv
 Verilog design file: ../source/impl_1/lab3_presslogic.sv
 Verilog design file: ../source/impl_1/lab3_synchronizer.sv
 Verilog design file: ../source/impl_1/lab3_scanfsm.sv
+Verilog design file: ../source/impl_1/lab3_mux.sv
+Verilog design file: ../source/impl_1/lab3_display.sv
 VHDL library: pmi
 VHDL design file: C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd
 
@@ -146,59 +148,77 @@ Analyzing Verilog file ../source/impl_1/lab3_press_value.sv. VERI-1482
 Analyzing Verilog file ../source/impl_1/lab3_presslogic.sv. VERI-1482
 Analyzing Verilog file ../source/impl_1/lab3_synchronizer.sv. VERI-1482
 Analyzing Verilog file ../source/impl_1/lab3_scanfsm.sv. VERI-1482
+Analyzing Verilog file ../source/impl_1/lab3_mux.sv. VERI-1482
+Analyzing Verilog file ../source/impl_1/lab3_display.sv. VERI-1482
 Top module name (Verilog): lab3_ei
 INFO <35901018> - synthesis: ../source/impl_1/lab3_ei.sv(7): compiling module lab3_ei. VERI-1018
-INFO <35901018> - synthesis: ../source/impl_1/lab3_counter.sv(6): compiling module lab3_counter(MAXCOUNT=400000,WIDTH=20). VERI-1018
 INFO <35901018> - synthesis: ../source/impl_1/lab3_synchronizer.sv(6): compiling module lab3_synchronizer. VERI-1018
 INFO <35901018> - synthesis: ../source/impl_1/lab3_debouncer.sv(7): compiling module lab3_debouncer. VERI-1018
-INFO <35901018> - synthesis: ../source/impl_1/lab3_counter.sv(6): compiling module lab3_counter(MAXCOUNT=524289,WIDTH=20). VERI-1018
+INFO <35901018> - synthesis: ../source/impl_1/lab3_counter.sv(6): compiling module lab3_counter(MAXCOUNT=324289,WIDTH=20). VERI-1018
 INFO <35901018> - synthesis: ../source/impl_1/lab3_press_value.sv(7): compiling module lab3_press_value. VERI-1018
+WARNING <35901330> - synthesis: ../source/impl_1/lab3_press_value.sv(33): actual bit length 17 differs from formal bit length 20 for port counter. VERI-1330
 INFO <35901018> - synthesis: ../source/impl_1/lab3_presslogic.sv(6): compiling module lab3_presslogic. VERI-1018
+INFO <35901018> - synthesis: ../source/impl_1/lab3_mux.sv(7): compiling module lab3_mux. VERI-1018
+INFO <35901018> - synthesis: ../source/impl_1/lab3_counter.sv(6): compiling module lab3_counter(MAXCOUNT=324289,WIDTH=25). VERI-1018
+WARNING <35901330> - synthesis: ../source/impl_1/lab3_mux.sv(21): actual bit length 16 differs from formal bit length 25 for port counter. VERI-1330
 INFO <35901018> - synthesis: ../source/impl_1/lab3_scanfsm.sv(6): compiling module lab3_scanfsm. VERI-1018
-INFO <35901018> - synthesis: ../source/impl_1/lab3_scanning.sv(6): compiling module lab3_scanning(MAXCOUNT=524289). VERI-1018
-INFO <35901018> - synthesis: ../source/impl_1/lab3_counter.sv(6): compiling module lab3_counter(MAXCOUNT=524288,WIDTH=20). VERI-1018
+INFO <35901018> - synthesis: ../source/impl_1/lab3_display.sv(7): compiling module lab3_display. VERI-1018
+WARNING <35931002> - synthesis: ../source/impl_1/lab3_display.sv(16): net s_mid[3] does not have a driver. VDB-1002
 INFO <35901018> - synthesis: ../source/impl_1/lab3_7_seg_decoder.sv(7): compiling module lab3_7_seg_decoder. VERI-1018
-WARNING <35931002> - synthesis: ../source/impl_1/lab3_ei.sv(26): net s[3] does not have a driver. VDB-1002
+INFO <35901018> - synthesis: ../source/impl_1/lab3_scanning.sv(8): compiling module lab3_scanning. VERI-1018
+INFO <35901018> - synthesis: ../source/impl_1/lab3_counter.sv(6): compiling module lab3_counter(MAXCOUNT=324288,WIDTH=25). VERI-1018
 [Parameter Setting Section Start]
 
 	[Parameter Settings for Instance(s): hf_osc]
 	(Module: HSOSC)
 		CLKHF_DIV                 "0b00"
 
-	[Parameter Settings for Instance(s): lab3_counter_inst]
-	(Module: lab3_counter)
-		MAXCOUNT                  400000
-		WIDTH                     20
-
 	[Parameter Settings for Instance(s): lab3_synchronizer_row, lab3_synchronizer_col]
 	(Module: lab3_synchronizer)
 		WIDTH                     4
 
-	[Parameter Settings for Instance(s): lab3_counter_inst]
+	[Parameter Settings for Instance(s): lab3_counter_inst, lab3_counter_inst]
 	(Module: lab3_counter)
-		MAXCOUNT                  524289
+		MAXCOUNT                  324289
 		WIDTH                     20
 
 	[Parameter Settings for Instance(s): ff_r0, ff_r1, ff_r2, ff_r3]
 	(Module: lab3_presslogic)
 		WIDTH                     4
 
-	[Parameter Settings for Instance(s): lab3_scanning_inst]
-	(Module: lab3_scanning)
-		MAXCOUNT                  524289
-		WIDTH                     20
+	[Parameter Settings for Instance(s): lab3_counter_inst]
+	(Module: lab3_counter)
+		MAXCOUNT                  324289
+		WIDTH                     25
 
 	[Parameter Settings for Instance(s): lab2_counter_inst]
 	(Module: lab3_counter)
-		MAXCOUNT                  524288
-		WIDTH                     20
+		MAXCOUNT                  324288
+		WIDTH                     25
 
 [Parameter Setting Section End]
-WARNING <35931002> - synthesis: ../source/impl_1/lab3_ei.sv(26): net s[3] does not have a driver. VDB-1002
-######## Missing driver on net s[3]. Patching with GND.
-######## Missing driver on net s[2]. Patching with GND.
-######## Missing driver on net s[1]. Patching with GND.
-######## Missing driver on net s[0]. Patching with GND.
+WARNING <35931002> - synthesis: ../source/impl_1/lab3_display.sv(16): net s_mid[3] does not have a driver. VDB-1002
+######## Missing driver on net \lab3_display_inst/s_mid[3]. Patching with GND.
+######## Missing driver on net \lab3_display_inst/s_mid[2]. Patching with GND.
+######## Missing driver on net \lab3_display_inst/s_mid[1]. Patching with GND.
+######## Missing driver on net \lab3_display_inst/s_mid[0]. Patching with GND.
+INFO <35001774> - synthesis: Extracted state machine for register '\lab3_debouncer_inst/state' with one-hot encoding
+State machine has 3 reachable states with original encodings of:
+
+ 00 
+
+ 01 
+
+ 10 
+
+original encoding -> new encoding (one-hot encoding)
+
+ 00 -> 001
+
+ 01 -> 010
+
+ 10 -> 100
+
 
 
 
@@ -215,23 +235,23 @@ WARNING <35002062> - synthesis: Port rejected for I/O register mapping: seg[3]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: seg[2]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: seg[1]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: seg[0]
-WARNING <35002062> - synthesis: Port rejected for I/O register mapping: power[1]
-WARNING <35002062> - synthesis: Port rejected for I/O register mapping: power[0]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: row[3]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: row[2]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: row[1]
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: row[0]
+WARNING <35002062> - synthesis: Port rejected for I/O register mapping: d1
+WARNING <35002062> - synthesis: Port rejected for I/O register mapping: d0
 
 ################### Begin Area Report (lab3_ei)######################
-Number of register bits => 75 of 5280 (1 % )
-CCU2 => 22
-FD1P3XZ => 75
+Number of register bits => 137 of 5280 (2 % )
+CCU2 => 48
+FD1P3XZ => 137
 HSOSC_CORE => 1
 IB => 6
-LUT4 => 144
+LUT4 => 187
 OB => 13
 ################### End Area Report ##################
-Number of odd-length carry chains : 0
+Number of odd-length carry chains : 2
 Number of even-length carry chains : 2
 
 ################### Begin Clock Report ######################
@@ -242,16 +262,16 @@ Clock Enable Nets
 Number of Clock Enables: 0
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : n362, loads : 52
-  Net : lab3_counter_inst/n4, loads : 34
-  Net : lab3_scanfsm_inst/lab3_scanning_inst/lab2_counter_inst/n4, loads : 26
-  Net : nreset_c, loads : 25
-  Net : n687, loads : 23
-  Net : n712, loads : 21
-  Net : lab3_counter_inst/n27[1], loads : 16
-  Net : lab3_counter_inst/n27[3], loads : 16
-  Net : lab3_counter_inst/n27[13], loads : 16
-  Net : lab3_counter_inst/n27[10], loads : 16
+  Net : lab3_mux_inst/lab3_counter_inst/n3, loads : 67
+  Net : n352, loads : 52
+  Net : lab3_scanning_inst/lab2_counter_inst/n2084, loads : 41
+  Net : lab3_mux_inst/lab3_counter_inst/n4, loads : 39
+  Net : nreset_c, loads : 32
+  Net : lab3_press_value_inst/lab3_counter_inst/n316, loads : 31
+  Net : lab3_debouncer_inst/lab3_counter_inst/n4_adj_166, loads : 31
+  Net : n975, loads : 23
+  Net : lab3_debouncer_inst/n5_adj_167, loads : 20
+  Net : lab3_scanning_inst/lab2_counter_inst/n1890, loads : 18
 ################### End Clock Report ##################
 
 ################### Begin Constraint Report ######################
@@ -260,10 +280,10 @@ Constraint Summary:
   Total number of constraints dropped: 0
 ###################  End Constraint Report  ######################
 
-Peak Memory Usage: 90 MB
+Peak Memory Usage: 91 MB
 
 --------------------------------------------------------------
 Total CPU Time: 0 secs 
 Total REAL Time: 0 secs 
 --------------------------------------------------------------
-Checksum -- synthesis -- netlist: c332b8c0cd976d17c5aa5468bdfb3cd6302d067b
+Checksum -- synthesis -- netlist: 9587ef7e63dab116a9c7e8b9c872f5836f52edf0

@@ -1,0 +1,29 @@
+#Start recording tcl command: 9/22/2026 23:11:51
+#Project Location: C:/Users/eing/Documents/GitHub/e155-lab3/fpga; Project name: lab3_ei
+prj_open "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei.rdf"
+prj_run PAR -impl impl_1
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_mux.sv"
+prj_run PAR -impl impl_1
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_display.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 9/23/2026 00:25:39

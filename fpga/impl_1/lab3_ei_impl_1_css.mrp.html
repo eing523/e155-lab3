@@ -49,7 +49,7 @@ Package: SG48
 Performance Grade:  High-Performance_1.2V
 
 Mapper:    version Radiant Software (64-bit) 2026.1.0.37.0
-Mapped on: Tue Sep 22 02:23:23 2026
+Mapped on: Wed Sep 23 00:24:51 2026
 
 <A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
 
@@ -61,13 +61,12 @@ Command line:   map -pdc
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
 
-   Number of slice registers:  75 out of  5280 (1%)
+   Number of slice registers: 137 out of  5280 (3%)
    Number of I/O registers:      0 out of   117 (0%)
-   Number of LUT4s:           206 out of  5280 (4%)
-      Number of logic LUT4s:             146
-      Number of inserted feedthru LUT4s:  12
-      Number of replicated LUT4s:          4
-      Number of ripple logic:             22 (44 LUT4s)
+   Number of LUT4s:           300 out of  5280 (6%)
+      Number of logic LUT4s:             188
+      Number of inserted feedthru LUT4s:  16
+      Number of ripple logic:             48 (96 LUT4s)
    Number of IO sites used:   19 out of 39 (49%)
       Number of IO sites used for general PIO: 19
       Number of IO sites used for I3C: 0 out of 2 (0%)
@@ -90,25 +89,28 @@ Command line:   map -pdc
    Number of EBRs:             0 out of 30 (0%)
    Number of PLLs:             0 out of 1 (0%)
    Number of Clocks:  1
-      Net clk: 75 loads, 75 rising, 0 falling (Driver: Pin hf_osc/CLKHF)
-   Number of Clock Enables:  3
+      Net clk: 128 loads, 128 rising, 0 falling (Driver: Pin hf_osc/CLKHF)
+   Number of Clock Enables:  4
       Net VCC_net: 1 loads, 0 SLICEs
-      Net n687: 20 loads, 20 SLICEs
-      Net n712: 20 loads, 20 SLICEs
-   Number of LSRs:  2
-      Net n362: 52 loads, 52 SLICEs
-      Net lab3_scanfsm_inst.n252: 1 loads, 1 SLICEs
+      Net n975: 20 loads, 20 SLICEs
+      Net n352: 51 loads, 51 SLICEs
+      Net lab3_display_inst.n830: 4 loads, 4 SLICEs
+   Number of LSRs:  4
+      Net n5: 20 loads, 20 SLICEs
+      Net n3: 69 loads, 69 SLICEs
+      Net lab3_scanfsm_inst.n307: 1 loads, 1 SLICEs
+      Net lab3_press_value_inst.lab3_counter_inst.n316: 11 loads, 11 SLICEs
    Top 10 highest fanout non-clock nets:
-      Net n362: 52 loads
-      Net nreset_c: 29 loads
-      Net lab3_counter_inst.n4: 20 loads
-      Net lab3_scanfsm_inst.lab3_scanning_inst.lab2_counter_inst.n4: 20 loads
-      Net n687: 20 loads
-      Net n712: 20 loads
+      Net n3: 69 loads
+      Net n352: 51 loads
+      Net nreset_c: 33 loads
+      Net lab3_mux_inst.lab3_counter_inst.n4: 26 loads
+      Net lab3_scanning_inst.lab2_counter_inst.n2084: 25 loads
+      Net lab3_debouncer_inst.lab3_counter_inst.n4_adj_166: 20 loads
+      Net n5: 20 loads
+      Net n975: 20 loads
+      Net lab3_press_value_inst.lab3_counter_inst.n316: 11 loads
       Net scan_count[17]: 10 loads
-      Net scan_count[18]: 10 loads
-      Net scan_count[19]: 10 loads
-      Net key[8]: 9 loads
 
    Number of warnings:  0
    Number of criticals: 0
@@ -123,8 +125,6 @@ Command line:   map -pdc
 +---------------------+-----------+-----------+-------+-------+-----------+
 | IO Name             | Direction | Levelmode |  IO   |  IO   | Special   |
 |                     |           |  IO_TYPE  |  REG  |  DDR  | IO Buffer |
-+---------------------+-----------+-----------+-------+-------+-----------+
-| seg[3]              | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
 | nreset              | INPUT     |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
@@ -142,13 +142,15 @@ Command line:   map -pdc
 +---------------------+-----------+-----------+-------+-------+-----------+
 | seg[5]              | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
+| seg[4]              | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| seg[3]              | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| seg[2]              | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
 | seg[1]              | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
 | seg[0]              | OUTPUT    |           |       |       |           |
-+---------------------+-----------+-----------+-------+-------+-----------+
-| power[1]            | OUTPUT    |           |       |       |           |
-+---------------------+-----------+-----------+-------+-------+-----------+
-| power[0]            | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
 | row[3]              | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
@@ -158,13 +160,14 @@ Command line:   map -pdc
 +---------------------+-----------+-----------+-------+-------+-----------+
 | row[0]              | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| seg[2]              | OUTPUT    |           |       |       |           |
+| d1                  | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
-| seg[4]              | OUTPUT    |           |       |       |           |
+| d0                  | OUTPUT    |           |       |       |           |
 +---------------------+-----------+-----------+-------+-------+-----------+
 
 <A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
 
+Block i1 was optimized away.
 
 <A name="mrp_osc"></A><B><U><big>OSC Summary</big></U></B>
 
@@ -189,8 +192,8 @@ Instance Name: hf_osc
 
    Total CPU Time: 0 secs
    Total REAL Time: 0 secs
-   Peak Memory Usage: 68 MB
-Checksum -- map: 8c799d7795b0997a7d6e5d3558e9406324aa493d
+   Peak Memory Usage: 70 MB
+Checksum -- map: aa12f4cf89c580d4f100b8f771851d6acf81fb09
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995
      AT&amp;T Corp.   All rights reserved.

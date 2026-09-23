@@ -30,7 +30,7 @@ module lab3_press_value (
 	assign read = (press_count == 17'd50000);
 
 	// Instantiate counter module -- 10.9 ms for 48 MHz for signal on/off
-	lab3_counter #(.MAXCOUNT(524_289), .WIDTH(20)) lab3_counter_inst (.clk(clk), .nreset(nreset), .enable(1'b1), .counter(press_count), .clk_new(clk_new));
+	lab3_counter #(.MAXCOUNT(324_289), .WIDTH(20)) lab3_counter_inst (.clk(clk), .nreset(nreset), .enable(1'b1), .counter(press_count), .clk_new(clk_new));
 
 	// sequential logic block for a hardware flip-flop register
     lab3_presslogic ff_r0 (.clk(clk), .nreset(nreset), .enable(row_sync[0] & read), .d_in(~col_sync), .q_out(q_out_r0));
@@ -50,23 +50,23 @@ module lab3_press_value (
 	// Relationship between press and values of hexadecimal value that corresponds to a one hot encoding
 	always_comb
 		case (key)
-			16'b0000000000000001: begin binary_val = ~4'h0; index = 2'b01; press = 1; end // 0
-			16'b0000000000000010: begin binary_val = ~4'h1; index = 2'b00; press = 1; end // 1
-			16'b0000000000000100: begin binary_val = ~4'h2; index = 2'b01; press = 1; end // 2
-			16'b0000000000001000: begin binary_val = ~4'h3; index = 2'b10; press = 1; end // 3
-			16'b0000000000010000: begin binary_val = ~4'h4; index = 2'b00; press = 1; end // 4
-			16'b0000000000100000: begin binary_val = ~4'h5; index = 2'b01; press = 1; end // 5
-			16'b0000000001000000: begin binary_val = ~4'h6; index = 2'b10; press = 1; end // 6
-			16'b0000000010000000: begin binary_val = ~4'h7; index = 2'b00; press = 1; end // 7
-			16'b0000000100000000: begin binary_val = ~4'h8; index = 2'b01; press = 1; end // 8
-			16'b0000001000000000: begin binary_val = ~4'h9; index = 2'b10; press = 1; end // 9
-			16'b0000010000000000: begin binary_val = ~4'hA; index = 2'b11; press = 1; end // A
-			16'b0000100000000000: begin binary_val = ~4'hB; index = 2'b11; press = 1; end // b
-			16'b0001000000000000: begin binary_val = ~4'hC; index = 2'b11; press = 1; end // c
-			16'b0010000000000000: begin binary_val = ~4'hD; index = 2'b11; press = 1; end // d
-			16'b0100000000000000: begin binary_val = ~4'hE; index = 2'b00; press = 1; end // E
-			16'b1000000000000000: begin binary_val = ~4'hF; index = 2'b10; press = 1; end // f
-			default: begin binary_val = ~4'h0; index = 2'b00; press = 0; end
+			16'b0000000000000001: begin binary_val = ~4'h0; press = 1; end // 0
+			16'b0000000000000010: begin binary_val = ~4'h1; press = 1; end // 1
+			16'b0000000000000100: begin binary_val = ~4'h2; press = 1; end // 2
+			16'b0000000000001000: begin binary_val = ~4'h3; press = 1; end // 3
+			16'b0000000000010000: begin binary_val = ~4'h4; press = 1; end // 4
+			16'b0000000000100000: begin binary_val = ~4'h5; press = 1; end // 5
+			16'b0000000001000000: begin binary_val = ~4'h6; press = 1; end // 6
+			16'b0000000010000000: begin binary_val = ~4'h7; press = 1; end // 7
+			16'b0000000100000000: begin binary_val = ~4'h8; press = 1; end // 8
+			16'b0000001000000000: begin binary_val = ~4'h9; press = 1; end // 9
+			16'b0000010000000000: begin binary_val = ~4'hA; press = 1; end // A
+			16'b0000100000000000: begin binary_val = ~4'hB; press = 1; end // b
+			16'b0001000000000000: begin binary_val = ~4'hC; press = 1; end // c
+			16'b0010000000000000: begin binary_val = ~4'hD; press = 1; end // d
+			16'b0100000000000000: begin binary_val = ~4'hE; press = 1; end // E
+			16'b1000000000000000: begin binary_val = ~4'hF; press = 1; end // f
+			default: begin binary_val = ~4'h0; press = 0; end
 		endcase
 	
 endmodule

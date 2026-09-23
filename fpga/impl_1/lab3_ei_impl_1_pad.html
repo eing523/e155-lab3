@@ -48,7 +48,7 @@ Performance Grade:      High-Performance_1.2V
 PACKAGE:          SG48
 Package Status:                     Preliminary    Version 1.5
 
-Tue Sep 22 02:23:28 2026
+Wed Sep 23 00:24:58 2026
 
 Pinout by Port Name:
 +-----------+----------+--------------+-------+------------------------------------------+
@@ -58,10 +58,10 @@ Pinout by Port Name:
 | col[1]    | 4/2      | LVCMOS33_IN  | PL10A | DRIVE:NA IO_TYPE:LVCMOS33 PULLMODE:100K  |
 | col[2]    | 6/1      | LVCMOS33_IN  | PL14B | DRIVE:NA IO_TYPE:LVCMOS33 PULLMODE:100K  |
 | col[3]    | 47/2     | LVCMOS33_IN  | PL7A  | DRIVE:NA IO_TYPE:LVCMOS33 PULLMODE:100K  |
+| d0        | 20/1     | LVCMOS33_OUT | PL20B | DRIVE:8mA IO_TYPE:LVCMOS33 PULLMODE:NA   |
+| d1        | 18/1     | LVCMOS33_OUT | PL23B | DRIVE:8mA IO_TYPE:LVCMOS33 PULLMODE:NA   |
 | enable    | 37/0     | LVCMOS33_IN  | PR14A | DRIVE:NA IO_TYPE:LVCMOS33 PULLMODE:100K  |
 | nreset    | 43/0     | LVCMOS33_IN  | PR10A | DRIVE:NA IO_TYPE:LVCMOS33 PULLMODE:100K  |
-| power[0]  | 18/1     | LVCMOS33_OUT | PL23B | DRIVE:8mA IO_TYPE:LVCMOS33 PULLMODE:NA   |
-| power[1]  | 20/1     | LVCMOS33_OUT | PL20B | DRIVE:8mA IO_TYPE:LVCMOS33 PULLMODE:NA   |
 | row[0]    | 11/1     | LVCMOS33_OUT | PL18A | DRIVE:8mA IO_TYPE:LVCMOS33 PULLMODE:NA   |
 | row[1]    | 10/1     | LVCMOS33_OUT | PL17A | DRIVE:8mA IO_TYPE:LVCMOS33 PULLMODE:NA   |
 | row[2]    | 21/1     | LVCMOS33_OUT | PL19B | DRIVE:8mA IO_TYPE:LVCMOS33 PULLMODE:NA   |
@@ -101,9 +101,9 @@ Vccio by Bank:
 | 15/1     |     unused, PULL:UP |            |              | PL25A | SPISCK           |
 | 16/1     |     unused, PULL:UP |            |              | PL25B | SPI_SS           |
 | 17/1     |     unused, PULL:UP |            |              | PL24B | SPI_SI           |
-| 18/1     | power[0]            | LOCATED    | LVCMOS33_OUT | PL23B |                  |
+| 18/1     | d1                  | LOCATED    | LVCMOS33_OUT | PL23B |                  |
 | 19/1     | row[3]              | LOCATED    | LVCMOS33_OUT | PL22B |                  |
-| 20/1     | power[1]            | LOCATED    | LVCMOS33_OUT | PL20B | PCLKT1_0         |
+| 20/1     | d0                  | LOCATED    | LVCMOS33_OUT | PL20B | PCLKT1_0         |
 | 21/1     | row[2]              | LOCATED    | LVCMOS33_OUT | PL19B |                  |
 | 23/0     |     unused, PULL:UP |            |              | PR20A |                  |
 | 25/0     |     unused, PULL:UP |            |              | PR20B |                  |
@@ -153,10 +153,10 @@ ldc_set_location -site {48} [ get_ports {col[0]} ]
 ldc_set_location -site {4} [ get_ports {col[1]} ]
 ldc_set_location -site {6} [ get_ports {col[2]} ]
 ldc_set_location -site {47} [ get_ports {col[3]} ]
+ldc_set_location -site {20} [ get_ports {d0} ]
+ldc_set_location -site {18} [ get_ports {d1} ]
 ldc_set_location -site {37} [ get_ports {enable} ]
 ldc_set_location -site {43} [ get_ports {nreset} ]
-ldc_set_location -site {18} [ get_ports {power[0]} ]
-ldc_set_location -site {20} [ get_ports {power[1]} ]
 ldc_set_location -site {11} [ get_ports {row[0]} ]
 ldc_set_location -site {10} [ get_ports {row[1]} ]
 ldc_set_location -site {21} [ get_ports {row[2]} ]
@@ -175,7 +175,7 @@ ldc_set_location -site {13} [ get_ports {seg[6]} ]
 
 Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.
 
-Tue Sep 22 02:23:28 2026
+Wed Sep 23 00:24:58 2026
 
 
 
