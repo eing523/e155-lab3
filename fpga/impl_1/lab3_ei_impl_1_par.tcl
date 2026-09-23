@@ -23,6 +23,9 @@ if {[file exists {C:/Users/eing/Documents/GitHub/e155-lab3/fpga/impl_1/lab3_ei_i
   file copy -force -- {C:/Users/eing/Documents/GitHub/e155-lab3/fpga/impl_1/lab3_ei_impl_1_syn.udb} {C:/Users/eing/Documents/GitHub/e155-lab3/fpga/impl_1/incr/postsyn.udb}
   file copy -force -- {C:/Users/eing/Documents/GitHub/e155-lab3/fpga/impl_1/lab3_ei_impl_1_map.udb} {C:/Users/eing/Documents/GitHub/e155-lab3/fpga/impl_1/incr/postmap.udb}
   file copy -force -- {C:/Users/eing/Documents/GitHub/e155-lab3/fpga/impl_1/lab3_ei_impl_1.udb} {C:/Users/eing/Documents/GitHub/e155-lab3/fpga/impl_1/incr/postpar.udb}
+  if [file exists {C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei.pdc}] {
+    file copy -force -- {C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei.pdc} {C:/Users/eing/Documents/GitHub/e155-lab3/fpga/impl_1/incr/lastrun.pdc}
+  }
 }
 
 } out]} {

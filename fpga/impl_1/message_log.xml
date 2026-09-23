@@ -778,23 +778,7 @@
             <ID>35901018</ID>
             <Severity>1</Severity>
             <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_counter.sv(6): </Dynamic>
-            <Dynamic>lab3_counter(MAXCOUNT=200000)</Dynamic>
-            <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_counter.sv</Navigation>
-            <Navigation>6</Navigation>
-        </Message>
-        <Message>
-            <ID>35901018</ID>
-            <Severity>1</Severity>
-            <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_scanning.sv(6): </Dynamic>
-            <Dynamic>lab3_scanning</Dynamic>
-            <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_scanning.sv</Navigation>
-            <Navigation>6</Navigation>
-        </Message>
-        <Message>
-            <ID>35901018</ID>
-            <Severity>1</Severity>
-            <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_counter.sv(6): </Dynamic>
-            <Dynamic>lab3_counter(MAXCOUNT=524288)</Dynamic>
+            <Dynamic>lab3_counter(MAXCOUNT=400000,WIDTH=20)</Dynamic>
             <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_counter.sv</Navigation>
             <Navigation>6</Navigation>
         </Message>
@@ -813,6 +797,14 @@
             <Dynamic>lab3_debouncer</Dynamic>
             <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_debouncer.sv</Navigation>
             <Navigation>7</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_counter.sv(6): </Dynamic>
+            <Dynamic>lab3_counter(MAXCOUNT=524289,WIDTH=20)</Dynamic>
+            <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_counter.sv</Navigation>
+            <Navigation>6</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
@@ -841,6 +833,22 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
+            <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_scanning.sv(6): </Dynamic>
+            <Dynamic>lab3_scanning(MAXCOUNT=524289)</Dynamic>
+            <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_scanning.sv</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_counter.sv(6): </Dynamic>
+            <Dynamic>lab3_counter(MAXCOUNT=524288,WIDTH=20)</Dynamic>
+            <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_counter.sv</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
             <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_7_seg_decoder.sv(7): </Dynamic>
             <Dynamic>lab3_7_seg_decoder</Dynamic>
             <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_7_seg_decoder.sv</Navigation>
@@ -849,18 +857,10 @@
         <Message>
             <ID>35931002</ID>
             <Severity>16</Severity>
-            <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_ei.sv(32): </Dynamic>
-            <Dynamic>sw1[3]</Dynamic>
+            <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_ei.sv(26): </Dynamic>
+            <Dynamic>s[3]</Dynamic>
             <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_ei.sv</Navigation>
-            <Navigation>32</Navigation>
-        </Message>
-        <Message>
-            <ID>35931002</ID>
-            <Severity>16</Severity>
-            <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_ei.sv(33): </Dynamic>
-            <Dynamic>sw2[3]</Dynamic>
-            <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_ei.sv</Navigation>
-            <Navigation>33</Navigation>
+            <Navigation>26</Navigation>
         </Message>
         <Message>
             <ID>35001797</ID>
@@ -878,23 +878,7 @@
             <ID>35901018</ID>
             <Severity>1</Severity>
             <Dynamic>../source/impl_1/lab3_counter.sv(6): </Dynamic>
-            <Dynamic>lab3_counter(MAXCOUNT=200000)</Dynamic>
-            <Navigation>../source/impl_1/lab3_counter.sv</Navigation>
-            <Navigation>6</Navigation>
-        </Message>
-        <Message>
-            <ID>35901018</ID>
-            <Severity>1</Severity>
-            <Dynamic>../source/impl_1/lab3_scanning.sv(6): </Dynamic>
-            <Dynamic>lab3_scanning</Dynamic>
-            <Navigation>../source/impl_1/lab3_scanning.sv</Navigation>
-            <Navigation>6</Navigation>
-        </Message>
-        <Message>
-            <ID>35901018</ID>
-            <Severity>1</Severity>
-            <Dynamic>../source/impl_1/lab3_counter.sv(6): </Dynamic>
-            <Dynamic>lab3_counter(MAXCOUNT=524288)</Dynamic>
+            <Dynamic>lab3_counter(MAXCOUNT=400000,WIDTH=20)</Dynamic>
             <Navigation>../source/impl_1/lab3_counter.sv</Navigation>
             <Navigation>6</Navigation>
         </Message>
@@ -913,6 +897,14 @@
             <Dynamic>lab3_debouncer</Dynamic>
             <Navigation>../source/impl_1/lab3_debouncer.sv</Navigation>
             <Navigation>7</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>../source/impl_1/lab3_counter.sv(6): </Dynamic>
+            <Dynamic>lab3_counter(MAXCOUNT=524289,WIDTH=20)</Dynamic>
+            <Navigation>../source/impl_1/lab3_counter.sv</Navigation>
+            <Navigation>6</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
@@ -941,6 +933,22 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
+            <Dynamic>../source/impl_1/lab3_scanning.sv(6): </Dynamic>
+            <Dynamic>lab3_scanning(MAXCOUNT=524289)</Dynamic>
+            <Navigation>../source/impl_1/lab3_scanning.sv</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>../source/impl_1/lab3_counter.sv(6): </Dynamic>
+            <Dynamic>lab3_counter(MAXCOUNT=524288,WIDTH=20)</Dynamic>
+            <Navigation>../source/impl_1/lab3_counter.sv</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
             <Dynamic>../source/impl_1/lab3_7_seg_decoder.sv(7): </Dynamic>
             <Dynamic>lab3_7_seg_decoder</Dynamic>
             <Navigation>../source/impl_1/lab3_7_seg_decoder.sv</Navigation>
@@ -949,66 +957,18 @@
         <Message>
             <ID>35931002</ID>
             <Severity>16</Severity>
-            <Dynamic>../source/impl_1/lab3_ei.sv(32): </Dynamic>
-            <Dynamic>sw1[3]</Dynamic>
+            <Dynamic>../source/impl_1/lab3_ei.sv(26): </Dynamic>
+            <Dynamic>s[3]</Dynamic>
             <Navigation>../source/impl_1/lab3_ei.sv</Navigation>
-            <Navigation>32</Navigation>
+            <Navigation>26</Navigation>
         </Message>
         <Message>
             <ID>35931002</ID>
             <Severity>16</Severity>
-            <Dynamic>../source/impl_1/lab3_ei.sv(33): </Dynamic>
-            <Dynamic>sw2[3]</Dynamic>
+            <Dynamic>../source/impl_1/lab3_ei.sv(26): </Dynamic>
+            <Dynamic>s[3]</Dynamic>
             <Navigation>../source/impl_1/lab3_ei.sv</Navigation>
-            <Navigation>33</Navigation>
-        </Message>
-        <Message>
-            <ID>35931002</ID>
-            <Severity>16</Severity>
-            <Dynamic>../source/impl_1/lab3_ei.sv(33): </Dynamic>
-            <Dynamic>sw2[3]</Dynamic>
-            <Navigation>../source/impl_1/lab3_ei.sv</Navigation>
-            <Navigation>33</Navigation>
-        </Message>
-        <Message>
-            <ID>35002028</ID>
-            <Severity>256</Severity>
-            <Dynamic>col[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002028</ID>
-            <Severity>256</Severity>
-            <Dynamic>col[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002028</ID>
-            <Severity>256</Severity>
-            <Dynamic>col[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002028</ID>
-            <Severity>256</Severity>
-            <Dynamic>col[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002028</ID>
-            <Severity>256</Severity>
-            <Dynamic>col[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002028</ID>
-            <Severity>256</Severity>
-            <Dynamic>col[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002028</ID>
-            <Severity>256</Severity>
-            <Dynamic>col[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002028</ID>
-            <Severity>256</Severity>
-            <Dynamic>col[0]</Dynamic>
+            <Navigation>26</Navigation>
         </Message>
         <Message>
             <ID>35002062</ID>
@@ -1104,170 +1064,6 @@
             <ID>35002062</ID>
             <Severity>16</Severity>
             <Dynamic>row[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>d1[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>d1[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>d1[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>d1[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>d0[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>d0[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>d0[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>35002062</ID>
-            <Severity>16</Severity>
-            <Dynamic>d0[0]</Dynamic>
-        </Message>
-    </Task>
-    <Task name="Map">
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[0]</Dynamic>
-        </Message>
-    </Task>
-    <Task name="PAR">
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[0]</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[3]</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[2]</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[1]</Dynamic>
-        </Message>
-        <Message>
-            <ID>71003020</ID>
-            <Severity>16</Severity>
-            <Dynamic>col[0]</Dynamic>
         </Message>
     </Task>
 </BaliMessageLog>

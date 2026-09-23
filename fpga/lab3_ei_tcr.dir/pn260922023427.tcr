@@ -1,0 +1,51 @@
+#Start recording tcl command: 9/21/2026 18:19:25
+#Project Location: C:/Users/eing/Documents/GitHub/e155-lab3/fpga; Project name: lab3_ei
+prj_open "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei.rdf"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei.pdc"
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei.pdc"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_scanfsm_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_press_value_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_scanfsm_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_press_value_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_debouncer.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_debouncer.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_debouncer.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_debouncer.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 9/22/2026 02:34:27

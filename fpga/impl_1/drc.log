@@ -1,0 +1,10 @@
+DRC: Design Rule Check Radiant Software (64-bit) 2026.1.0.37.0
+Mon Sep 21 21:04:58 2026
+
+INFO <2043018> - C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_ei.sv(7,8-7,15) (VERI-1018) compiling module 'lab3_ei'
+Done: design load finished with (0) errors, and (0) warnings
+
+WARNING <71003020> - Top module port 'col[3]' does not connect to anything.
+WARNING <71003020> - Top module port 'col[2]' does not connect to anything.
+WARNING <71003020> - Top module port 'col[1]' does not connect to anything.
+WARNING <71003020> - Top module port 'col[0]' does not connect to anything.
