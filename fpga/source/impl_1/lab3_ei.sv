@@ -3,6 +3,7 @@
 // Date of creation: 9/19/2026
 // Summary: Top module used to instantiate modules plus the switch-to-LED assign logic.
 
+// NOTE TO SELF: need find counter values  reasoning chosen in each module
 
 module lab3_ei(
 	input  logic       nreset,

@@ -25,12 +25,12 @@ module lab3_press_value (
 	assign {key[3:1],   key[10]} = q_out_r0;
 	assign {key[6:4],   key[11]} = q_out_r1;
 	assign {key[9:7],   key[12]} = q_out_r2;
-	assign {key[15:13], key[0]}  = q_out_r3;
+	assign {key[15], key[0], key[14], key[13]}  = q_out_r3;
 
 	assign read = (press_count == 17'd50000);
 
 	// Instantiate counter module -- 10.9 ms for 48 MHz for signal on/off
-	lab3_counter #(.MAXCOUNT(324_289), .WIDTH(20)) lab3_counter_inst (.clk(clk), .nreset(nreset), .enable(1'b1), .counter(press_count), .clk_new(clk_new));
+	lab3_counter #(.MAXCOUNT(178000), .WIDTH(20)) lab3_counter_inst (.clk(clk), .nreset(nreset), .enable(1'b1), .counter(press_count), .clk_new(clk_new));
 
 	// sequential logic block for a hardware flip-flop register
     lab3_presslogic ff_r0 (.clk(clk), .nreset(nreset), .enable(row_sync[0] & read), .d_in(~col_sync), .q_out(q_out_r0));

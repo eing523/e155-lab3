@@ -16,12 +16,12 @@ module lab3_display(
 	logic [3:0] s_mid;
 
 // used to delay s_next by one clk cycle so that it comes in at the same time as when update is triggered UPDATEEEEEEEEEEEEEEEEE
-//	always_ff @(posedge clk)
-//		if (~nreset) begin s_mid <= ~4'b0; end
-//		else
-//				begin
-//					s_mid <= binary_val;
-//				end
+	always_ff @(posedge clk)
+		if (~nreset) begin s_mid <= ~4'b0; end
+		else
+				begin
+					s_mid <= binary_val;
+				end
 
 // update the display logic
 	always_ff @(posedge clk) begin

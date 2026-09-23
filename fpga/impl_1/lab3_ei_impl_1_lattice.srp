@@ -5,7 +5,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2026 Lattice Semiconductor Corporation,  All rights reserved.
-Wed Sep 23 00:24:50 2026
+Wed Sep 23 01:03:20 2026
 
 
 Command Line:  C:\lscc\radiant\2026.1\ispfpga\bin\nt64\synthesis.exe -f C:/Users/eing/Documents/GitHub/e155-lab3/fpga/impl_1/lab3_ei_impl_1_lattice.synproj -logfile lab3_ei_impl_1_lattice.srp -gui -msgset C:/Users/eing/Documents/GitHub/e155-lab3/fpga/promote.xml 
@@ -151,22 +151,22 @@ Analyzing Verilog file ../source/impl_1/lab3_scanfsm.sv. VERI-1482
 Analyzing Verilog file ../source/impl_1/lab3_mux.sv. VERI-1482
 Analyzing Verilog file ../source/impl_1/lab3_display.sv. VERI-1482
 Top module name (Verilog): lab3_ei
-INFO <35901018> - synthesis: ../source/impl_1/lab3_ei.sv(7): compiling module lab3_ei. VERI-1018
+INFO <35901018> - synthesis: ../source/impl_1/lab3_ei.sv(8): compiling module lab3_ei. VERI-1018
 INFO <35901018> - synthesis: ../source/impl_1/lab3_synchronizer.sv(6): compiling module lab3_synchronizer. VERI-1018
 INFO <35901018> - synthesis: ../source/impl_1/lab3_debouncer.sv(7): compiling module lab3_debouncer. VERI-1018
-INFO <35901018> - synthesis: ../source/impl_1/lab3_counter.sv(6): compiling module lab3_counter(MAXCOUNT=324289,WIDTH=20). VERI-1018
+INFO <35901018> - synthesis: ../source/impl_1/lab3_counter.sv(6): compiling module lab3_counter(MAXCOUNT=524289,WIDTH=20). VERI-1018
 INFO <35901018> - synthesis: ../source/impl_1/lab3_press_value.sv(7): compiling module lab3_press_value. VERI-1018
+INFO <35901018> - synthesis: ../source/impl_1/lab3_counter.sv(6): compiling module lab3_counter(MAXCOUNT=178000,WIDTH=20). VERI-1018
 WARNING <35901330> - synthesis: ../source/impl_1/lab3_press_value.sv(33): actual bit length 17 differs from formal bit length 20 for port counter. VERI-1330
 INFO <35901018> - synthesis: ../source/impl_1/lab3_presslogic.sv(6): compiling module lab3_presslogic. VERI-1018
 INFO <35901018> - synthesis: ../source/impl_1/lab3_mux.sv(7): compiling module lab3_mux. VERI-1018
-INFO <35901018> - synthesis: ../source/impl_1/lab3_counter.sv(6): compiling module lab3_counter(MAXCOUNT=324289,WIDTH=25). VERI-1018
-WARNING <35901330> - synthesis: ../source/impl_1/lab3_mux.sv(21): actual bit length 16 differs from formal bit length 25 for port counter. VERI-1330
+INFO <35901018> - synthesis: ../source/impl_1/lab3_counter.sv(6): compiling module lab3_counter(MAXCOUNT=40000,WIDTH=20). VERI-1018
+WARNING <35901330> - synthesis: ../source/impl_1/lab3_mux.sv(21): actual bit length 16 differs from formal bit length 20 for port counter. VERI-1330
 INFO <35901018> - synthesis: ../source/impl_1/lab3_scanfsm.sv(6): compiling module lab3_scanfsm. VERI-1018
 INFO <35901018> - synthesis: ../source/impl_1/lab3_display.sv(7): compiling module lab3_display. VERI-1018
-WARNING <35931002> - synthesis: ../source/impl_1/lab3_display.sv(16): net s_mid[3] does not have a driver. VDB-1002
 INFO <35901018> - synthesis: ../source/impl_1/lab3_7_seg_decoder.sv(7): compiling module lab3_7_seg_decoder. VERI-1018
 INFO <35901018> - synthesis: ../source/impl_1/lab3_scanning.sv(8): compiling module lab3_scanning. VERI-1018
-INFO <35901018> - synthesis: ../source/impl_1/lab3_counter.sv(6): compiling module lab3_counter(MAXCOUNT=324288,WIDTH=25). VERI-1018
+INFO <35901018> - synthesis: ../source/impl_1/lab3_counter.sv(6): compiling module lab3_counter(MAXCOUNT=320000,WIDTH=25). VERI-1018
 [Parameter Setting Section Start]
 
 	[Parameter Settings for Instance(s): hf_osc]
@@ -177,9 +177,14 @@ INFO <35901018> - synthesis: ../source/impl_1/lab3_counter.sv(6): compiling modu
 	(Module: lab3_synchronizer)
 		WIDTH                     4
 
-	[Parameter Settings for Instance(s): lab3_counter_inst, lab3_counter_inst]
+	[Parameter Settings for Instance(s): lab3_counter_inst]
 	(Module: lab3_counter)
-		MAXCOUNT                  324289
+		MAXCOUNT                  524289
+		WIDTH                     20
+
+	[Parameter Settings for Instance(s): lab3_counter_inst]
+	(Module: lab3_counter)
+		MAXCOUNT                  178000
 		WIDTH                     20
 
 	[Parameter Settings for Instance(s): ff_r0, ff_r1, ff_r2, ff_r3]
@@ -188,20 +193,15 @@ INFO <35901018> - synthesis: ../source/impl_1/lab3_counter.sv(6): compiling modu
 
 	[Parameter Settings for Instance(s): lab3_counter_inst]
 	(Module: lab3_counter)
-		MAXCOUNT                  324289
-		WIDTH                     25
+		MAXCOUNT                  40000
+		WIDTH                     20
 
 	[Parameter Settings for Instance(s): lab2_counter_inst]
 	(Module: lab3_counter)
-		MAXCOUNT                  324288
+		MAXCOUNT                  320000
 		WIDTH                     25
 
 [Parameter Setting Section End]
-WARNING <35931002> - synthesis: ../source/impl_1/lab3_display.sv(16): net s_mid[3] does not have a driver. VDB-1002
-######## Missing driver on net \lab3_display_inst/s_mid[3]. Patching with GND.
-######## Missing driver on net \lab3_display_inst/s_mid[2]. Patching with GND.
-######## Missing driver on net \lab3_display_inst/s_mid[1]. Patching with GND.
-######## Missing driver on net \lab3_display_inst/s_mid[0]. Patching with GND.
 INFO <35001774> - synthesis: Extracted state machine for register '\lab3_debouncer_inst/state' with one-hot encoding
 State machine has 3 reachable states with original encodings of:
 
@@ -243,16 +243,16 @@ WARNING <35002062> - synthesis: Port rejected for I/O register mapping: d1
 WARNING <35002062> - synthesis: Port rejected for I/O register mapping: d0
 
 ################### Begin Area Report (lab3_ei)######################
-Number of register bits => 137 of 5280 (2 % )
-CCU2 => 48
-FD1P3XZ => 137
+Number of register bits => 136 of 5280 (2 % )
+CCU2 => 46
+FD1P3XZ => 136
 HSOSC_CORE => 1
 IB => 6
-LUT4 => 187
+LUT4 => 243
 OB => 13
 ################### End Area Report ##################
-Number of odd-length carry chains : 2
-Number of even-length carry chains : 2
+Number of odd-length carry chains : 1
+Number of even-length carry chains : 3
 
 ################### Begin Clock Report ######################
 Clock Nets
@@ -262,16 +262,16 @@ Clock Enable Nets
 Number of Clock Enables: 0
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
-  Net : lab3_mux_inst/lab3_counter_inst/n3, loads : 67
-  Net : n352, loads : 52
-  Net : lab3_scanning_inst/lab2_counter_inst/n2084, loads : 41
-  Net : lab3_mux_inst/lab3_counter_inst/n4, loads : 39
-  Net : nreset_c, loads : 32
-  Net : lab3_press_value_inst/lab3_counter_inst/n316, loads : 31
-  Net : lab3_debouncer_inst/lab3_counter_inst/n4_adj_166, loads : 31
-  Net : n975, loads : 23
-  Net : lab3_debouncer_inst/n5_adj_167, loads : 20
-  Net : lab3_scanning_inst/lab2_counter_inst/n1890, loads : 18
+  Net : lab3_mux_inst/lab3_counter_inst/n3, loads : 69
+  Net : n1140, loads : 47
+  Net : lab3_press_value_inst/lab3_counter_inst/n331, loads : 37
+  Net : lab3_scanning_inst/lab2_counter_inst/n3014, loads : 36
+  Net : lab3_mux_inst/lab3_counter_inst/n4, loads : 33
+  Net : nreset_c, loads : 27
+  Net : n1171, loads : 23
+  Net : lab3_debouncer_inst/lab3_counter_inst/counter[19], loads : 23
+  Net : lab3_debouncer_inst/n5, loads : 20
+  Net : lab3_press_value_inst/lab3_counter_inst/n36, loads : 16
 ################### End Clock Report ##################
 
 ################### Begin Constraint Report ######################
@@ -283,7 +283,7 @@ Constraint Summary:
 Peak Memory Usage: 91 MB
 
 --------------------------------------------------------------
-Total CPU Time: 0 secs 
-Total REAL Time: 0 secs 
+Total CPU Time: 1 secs 
+Total REAL Time: 2 secs 
 --------------------------------------------------------------
-Checksum -- synthesis -- netlist: 9587ef7e63dab116a9c7e8b9c872f5836f52edf0
+Checksum -- synthesis -- netlist: 2fafa76e32be81503dcc30ab92ac8f5631be3b2e

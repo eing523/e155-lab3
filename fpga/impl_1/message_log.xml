@@ -769,10 +769,10 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_ei.sv(7): </Dynamic>
+            <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_ei.sv(8): </Dynamic>
             <Dynamic>lab3_ei</Dynamic>
             <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_ei.sv</Navigation>
-            <Navigation>7</Navigation>
+            <Navigation>8</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
@@ -794,7 +794,7 @@
             <ID>35901018</ID>
             <Severity>1</Severity>
             <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_counter.sv(6): </Dynamic>
-            <Dynamic>lab3_counter(MAXCOUNT=324289,WIDTH=20)</Dynamic>
+            <Dynamic>lab3_counter(MAXCOUNT=524289,WIDTH=20)</Dynamic>
             <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_counter.sv</Navigation>
             <Navigation>6</Navigation>
         </Message>
@@ -805,6 +805,14 @@
             <Dynamic>lab3_press_value</Dynamic>
             <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_press_value.sv</Navigation>
             <Navigation>7</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_counter.sv(6): </Dynamic>
+            <Dynamic>lab3_counter(MAXCOUNT=178000,WIDTH=20)</Dynamic>
+            <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_counter.sv</Navigation>
+            <Navigation>6</Navigation>
         </Message>
         <Message>
             <ID>35901330</ID>
@@ -836,7 +844,7 @@
             <ID>35901018</ID>
             <Severity>1</Severity>
             <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_counter.sv(6): </Dynamic>
-            <Dynamic>lab3_counter(MAXCOUNT=324289,WIDTH=25)</Dynamic>
+            <Dynamic>lab3_counter(MAXCOUNT=40000,WIDTH=20)</Dynamic>
             <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_counter.sv</Navigation>
             <Navigation>6</Navigation>
         </Message>
@@ -845,7 +853,7 @@
             <Severity>16</Severity>
             <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_mux.sv(21): </Dynamic>
             <Dynamic>16</Dynamic>
-            <Dynamic>25</Dynamic>
+            <Dynamic>20</Dynamic>
             <Dynamic>counter</Dynamic>
             <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_mux.sv</Navigation>
             <Navigation>21</Navigation>
@@ -867,14 +875,6 @@
             <Navigation>7</Navigation>
         </Message>
         <Message>
-            <ID>35931002</ID>
-            <Severity>16</Severity>
-            <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_display.sv(16): </Dynamic>
-            <Dynamic>s_mid[3]</Dynamic>
-            <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_display.sv</Navigation>
-            <Navigation>16</Navigation>
-        </Message>
-        <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
             <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_7_seg_decoder.sv(7): </Dynamic>
@@ -894,7 +894,7 @@
             <ID>35901018</ID>
             <Severity>1</Severity>
             <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_counter.sv(6): </Dynamic>
-            <Dynamic>lab3_counter(MAXCOUNT=324288,WIDTH=25)</Dynamic>
+            <Dynamic>lab3_counter(MAXCOUNT=320000,WIDTH=25)</Dynamic>
             <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_counter.sv</Navigation>
             <Navigation>6</Navigation>
         </Message>
@@ -905,10 +905,10 @@
         <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
-            <Dynamic>../source/impl_1/lab3_ei.sv(7): </Dynamic>
+            <Dynamic>../source/impl_1/lab3_ei.sv(8): </Dynamic>
             <Dynamic>lab3_ei</Dynamic>
             <Navigation>../source/impl_1/lab3_ei.sv</Navigation>
-            <Navigation>7</Navigation>
+            <Navigation>8</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
@@ -930,7 +930,7 @@
             <ID>35901018</ID>
             <Severity>1</Severity>
             <Dynamic>../source/impl_1/lab3_counter.sv(6): </Dynamic>
-            <Dynamic>lab3_counter(MAXCOUNT=324289,WIDTH=20)</Dynamic>
+            <Dynamic>lab3_counter(MAXCOUNT=524289,WIDTH=20)</Dynamic>
             <Navigation>../source/impl_1/lab3_counter.sv</Navigation>
             <Navigation>6</Navigation>
         </Message>
@@ -941,6 +941,14 @@
             <Dynamic>lab3_press_value</Dynamic>
             <Navigation>../source/impl_1/lab3_press_value.sv</Navigation>
             <Navigation>7</Navigation>
+        </Message>
+        <Message>
+            <ID>35901018</ID>
+            <Severity>1</Severity>
+            <Dynamic>../source/impl_1/lab3_counter.sv(6): </Dynamic>
+            <Dynamic>lab3_counter(MAXCOUNT=178000,WIDTH=20)</Dynamic>
+            <Navigation>../source/impl_1/lab3_counter.sv</Navigation>
+            <Navigation>6</Navigation>
         </Message>
         <Message>
             <ID>35901330</ID>
@@ -972,7 +980,7 @@
             <ID>35901018</ID>
             <Severity>1</Severity>
             <Dynamic>../source/impl_1/lab3_counter.sv(6): </Dynamic>
-            <Dynamic>lab3_counter(MAXCOUNT=324289,WIDTH=25)</Dynamic>
+            <Dynamic>lab3_counter(MAXCOUNT=40000,WIDTH=20)</Dynamic>
             <Navigation>../source/impl_1/lab3_counter.sv</Navigation>
             <Navigation>6</Navigation>
         </Message>
@@ -981,7 +989,7 @@
             <Severity>16</Severity>
             <Dynamic>../source/impl_1/lab3_mux.sv(21): </Dynamic>
             <Dynamic>16</Dynamic>
-            <Dynamic>25</Dynamic>
+            <Dynamic>20</Dynamic>
             <Dynamic>counter</Dynamic>
             <Navigation>../source/impl_1/lab3_mux.sv</Navigation>
             <Navigation>21</Navigation>
@@ -1003,14 +1011,6 @@
             <Navigation>7</Navigation>
         </Message>
         <Message>
-            <ID>35931002</ID>
-            <Severity>16</Severity>
-            <Dynamic>../source/impl_1/lab3_display.sv(16): </Dynamic>
-            <Dynamic>s_mid[3]</Dynamic>
-            <Navigation>../source/impl_1/lab3_display.sv</Navigation>
-            <Navigation>16</Navigation>
-        </Message>
-        <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
             <Dynamic>../source/impl_1/lab3_7_seg_decoder.sv(7): </Dynamic>
@@ -1030,17 +1030,9 @@
             <ID>35901018</ID>
             <Severity>1</Severity>
             <Dynamic>../source/impl_1/lab3_counter.sv(6): </Dynamic>
-            <Dynamic>lab3_counter(MAXCOUNT=324288,WIDTH=25)</Dynamic>
+            <Dynamic>lab3_counter(MAXCOUNT=320000,WIDTH=25)</Dynamic>
             <Navigation>../source/impl_1/lab3_counter.sv</Navigation>
             <Navigation>6</Navigation>
-        </Message>
-        <Message>
-            <ID>35931002</ID>
-            <Severity>16</Severity>
-            <Dynamic>../source/impl_1/lab3_display.sv(16): </Dynamic>
-            <Dynamic>s_mid[3]</Dynamic>
-            <Navigation>../source/impl_1/lab3_display.sv</Navigation>
-            <Navigation>16</Navigation>
         </Message>
         <Message>
             <ID>35001774</ID>
