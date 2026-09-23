@@ -1,0 +1,14 @@
+#Start recording tcl command: 9/23/2026 03:02:51
+#Project Location: C:/Users/eing/Documents/GitHub/e155-lab3/fpga; Project name: lab3_ei
+prj_open "C:/Users/eing/Documents/GitHub/e155-lab3/fpga/lab3_ei.rdf"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 9/23/2026 03:14:25

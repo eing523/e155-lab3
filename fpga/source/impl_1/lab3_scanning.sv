@@ -21,10 +21,10 @@ module lab3_scanning (
 	// row logic - 2Hz blinking
 	
 	assign row = 
-		   (scan_count < (MAXCOUNT/4)) ? 4'b1000 :
-		   (scan_count < (MAXCOUNT/2)) ? 4'b0100 :
-		   (scan_count < ((MAXCOUNT*3)/4)) ? 4'b0010 :
-		   (scan_count < (MAXCOUNT)) ? 4'b0001 :
+		   (scan_count < (MAXCOUNT/4)) ? 4'b0111 :
+		   (scan_count < (MAXCOUNT/2)) ? 4'b1011 :
+		   (scan_count < ((MAXCOUNT*3)/4)) ? 4'b1101 :
+		   (scan_count < (MAXCOUNT)) ? 4'b1110 :
 		   4'b0000;
 		
 endmodule

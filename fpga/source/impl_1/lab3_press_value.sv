@@ -22,10 +22,10 @@ module lab3_press_value (
 	logic [3:0] q_out_r3;
 	
 	// for q_out
-	assign {key[3:1],   key[10]} = q_out_r0;
-	assign {key[6:4],   key[11]} = q_out_r1;
-	assign {key[9:7],   key[12]} = q_out_r2;
-	assign {key[15], key[0], key[14], key[13]}  = q_out_r3;
+	assign {key[10], key[3:1]} = q_out_r0;
+	assign {key[11], key[6:4]} = q_out_r1;
+	assign {key[12], key[9:7]} = q_out_r2;
+	assign {key[14], key[13], key[0], key[15]}  = q_out_r3;
 
 	assign read = (press_count == 17'd50000);
 

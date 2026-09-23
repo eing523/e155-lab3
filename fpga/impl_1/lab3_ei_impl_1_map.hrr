@@ -3,79 +3,79 @@ Report for cell lab3_ei
    Instance path: lab3_ei
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	        357        100.0
-                               LUTGATE	        265        100.0
+                                  LUT4	        359        100.0
+                               LUTGATE	        267        100.0
                                 LUTCCU	         92        100.0
                                  IOBUF	         19        100.0
                                 PFUREG	        136        100.0
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
-                    lab3_7_seg_decoder	          1         2.0
-                        lab3_debouncer	          1        14.6
+                    lab3_7_seg_decoder	          1         1.9
+                        lab3_debouncer	          1        15.3
                           lab3_display	          1         0.0
-                              lab3_mux	          1        15.7
-                      lab3_press_value	          1        23.8
-                          lab3_scanfsm	          1         2.0
-                         lab3_scanning	          1        23.2
-                     lab3_synchronizer	          1         0.8
+                              lab3_mux	          1        15.6
+                      lab3_press_value	          1        23.4
+                          lab3_scanfsm	          1         1.7
+                         lab3_scanning	          1        23.1
+                     lab3_synchronizer	          1         1.4
                   lab3_synchronizer_U3	          1         0.0
----------------------------------------------------
-Report for cell lab3_debouncer
-   Instance path: lab3_ei/lab3_debouncer_inst
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  LUT4	         52        14.6
-                               LUTGATE	         30        11.3
-                                LUTCCU	         22        23.9
-                                PFUREG	         23        16.9
-SUB MODULES
-                                  cell	      count    LUT4 Usage(%)
-lab3_counter(MAXCOUNT=524289,WIDTH=20)	          1        11.8
----------------------------------------------------
-Report for cell lab3_counter(MAXCOUNT=524289,WIDTH=20)
-   Instance path: lab3_ei/lab3_debouncer_inst/lab3_counter_inst
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  LUT4	         42        11.8
-                               LUTGATE	         20         7.5
-                                LUTCCU	         22        23.9
-                                PFUREG	         20        14.7
----------------------------------------------------
-Report for cell lab3_scanning
-   Instance path: lab3_ei/lab3_scanning_inst
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  LUT4	         83        23.2
-                               LUTGATE	         57        21.5
-                                LUTCCU	         26        28.3
-                                PFUREG	         25        18.4
-SUB MODULES
-                                  cell	      count    LUT4 Usage(%)
-lab3_counter(MAXCOUNT=320000,WIDTH=25)	          1        16.5
----------------------------------------------------
-Report for cell lab3_counter(MAXCOUNT=320000,WIDTH=25)
-   Instance path: lab3_ei/lab3_scanning_inst/lab2_counter_inst
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  LUT4	         59        16.5
-                               LUTGATE	         33        12.5
-                                LUTCCU	         26        28.3
-                                PFUREG	         25        18.4
 ---------------------------------------------------
 Report for cell lab3_scanfsm
    Instance path: lab3_ei/lab3_scanfsm_inst
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	          7         2.0
-                               LUTGATE	          7         2.6
+                                  LUT4	          6         1.7
+                               LUTGATE	          6         2.2
                                 PFUREG	          3         2.2
+---------------------------------------------------
+Report for cell lab3_scanning
+   Instance path: lab3_ei/lab3_scanning_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         83        23.1
+                               LUTGATE	         57        21.3
+                                LUTCCU	         26        28.3
+                                PFUREG	         25        18.4
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+lab3_counter(MAXCOUNT=320000,WIDTH=25)	          1        18.9
+---------------------------------------------------
+Report for cell lab3_counter(MAXCOUNT=320000,WIDTH=25)
+   Instance path: lab3_ei/lab3_scanning_inst/lab2_counter_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         68        18.9
+                               LUTGATE	         42        15.7
+                                LUTCCU	         26        28.3
+                                PFUREG	         25        18.4
+---------------------------------------------------
+Report for cell lab3_debouncer
+   Instance path: lab3_ei/lab3_debouncer_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         55        15.3
+                               LUTGATE	         33        12.4
+                                LUTCCU	         22        23.9
+                                PFUREG	         23        16.9
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+lab3_counter(MAXCOUNT=524289,WIDTH=20)	          1        11.7
+---------------------------------------------------
+Report for cell lab3_counter(MAXCOUNT=524289,WIDTH=20)
+   Instance path: lab3_ei/lab3_debouncer_inst/lab3_counter_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         42        11.7
+                               LUTGATE	         20         7.5
+                                LUTCCU	         22        23.9
+                                PFUREG	         20        14.7
 ---------------------------------------------------
 Report for cell lab3_press_value
    Instance path: lab3_ei/lab3_press_value_inst
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	         85        23.8
-                               LUTGATE	         63        23.8
+                                  LUT4	         84        23.4
+                               LUTGATE	         62        23.2
                                 LUTCCU	         22        23.9
                                 PFUREG	         36        26.5
 SUB MODULES
@@ -133,44 +133,44 @@ Report for cell lab3_synchronizer_U3
                                   cell	      count    Res Usage(%)
                                 PFUREG	          8         5.9
 ---------------------------------------------------
+Report for cell lab3_synchronizer
+   Instance path: lab3_ei/lab3_synchronizer_row
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          5         1.4
+                               LUTGATE	          5         1.9
+                                PFUREG	          8         5.9
+---------------------------------------------------
 Report for cell lab3_mux
    Instance path: lab3_ei/lab3_mux_inst
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	         56        15.7
-                               LUTGATE	         34        12.8
+                                  LUT4	         56        15.6
+                               LUTGATE	         34        12.7
                                 LUTCCU	         22        23.9
                                 PFUREG	         21        15.4
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
- lab3_counter(MAXCOUNT=40000,WIDTH=20)	          1        14.3
+ lab3_counter(MAXCOUNT=40000,WIDTH=20)	          1        14.2
 ---------------------------------------------------
 Report for cell lab3_counter(MAXCOUNT=40000,WIDTH=20)
    Instance path: lab3_ei/lab3_mux_inst/lab3_counter_inst
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	         51        14.3
+                                  LUT4	         51        14.2
                                LUTGATE	         29        10.9
                                 LUTCCU	         22        23.9
                                 PFUREG	         21        15.4
+---------------------------------------------------
+Report for cell lab3_7_seg_decoder
+   Instance path: lab3_ei/lab3_7_seg_decoder_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          7         1.9
+                               LUTGATE	          7         2.6
 ---------------------------------------------------
 Report for cell lab3_display
    Instance path: lab3_ei/lab3_display_inst
                      Cell usage:
                                   cell	      count    Res Usage(%)
                                 PFUREG	         12         8.8
----------------------------------------------------
-Report for cell lab3_synchronizer
-   Instance path: lab3_ei/lab3_synchronizer_row
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  LUT4	          3         0.8
-                               LUTGATE	          3         1.1
-                                PFUREG	          8         5.9
----------------------------------------------------
-Report for cell lab3_7_seg_decoder
-   Instance path: lab3_ei/lab3_7_seg_decoder_inst
-                     Cell usage:
-                                  cell	      count    Res Usage(%)
-                                  LUT4	          7         2.0
-                               LUTGATE	          7         2.6

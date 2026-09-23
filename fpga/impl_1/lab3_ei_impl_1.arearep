@@ -8,7 +8,7 @@ I/O cells:      19
                             FD1P3XZ       136          100.0
                          HSOSC_CORE         1          100.0
                                  IB         6          100.0
-                               LUT4       244          100.0
+                               LUT4       246          100.0
                                  OB        13          100.0
 SUB MODULES
                  lab3_7_seg_decoder         1
@@ -28,27 +28,15 @@ lab3_counter(MAXCOUNT=524289,WIDTH=20)         1
                       lab3_scanning         1
                   lab3_synchronizer         1
                lab3_synchronizer_U3         1
-                              TOTAL       463
+                              TOTAL       465
 ----------------------------------------------------------------------
-Report for cell lab3_debouncer.v1
-Instance Path : lab3_debouncer_inst
+Report for cell lab3_scanfsm.v1
+Instance Path : lab3_scanfsm_inst
                                   Cell usage:
                                cell     count   Res Usage(%)
-                                FA2        11           23.9
-                            FD1P3XZ        23           16.9
-                               LUT4        30           12.3
-SUB MODULES
-lab3_counter(MAXCOUNT=524289,WIDTH=20)         1
-                              TOTAL        65
-----------------------------------------------------------------------
-Report for cell lab3_counter(MAXCOUNT=524289,WIDTH=20).v1
-Instance Path : lab3_debouncer_inst.lab3_counter_inst
-                                  Cell usage:
-                               cell     count   Res Usage(%)
-                                FA2        11           23.9
-                            FD1P3XZ        20           14.7
-                               LUT4        20            8.2
-                              TOTAL        51
+                            FD1P3XZ         3            2.2
+                               LUT4         6            2.4
+                              TOTAL         9
 ----------------------------------------------------------------------
 Report for cell lab3_scanning.v1
 Instance Path : lab3_scanning_inst
@@ -56,10 +44,10 @@ Instance Path : lab3_scanning_inst
                                cell     count   Res Usage(%)
                                 FA2        13           28.3
                             FD1P3XZ        25           18.4
-                               LUT4        57           23.4
+                               LUT4        58           23.6
 SUB MODULES
 lab3_counter(MAXCOUNT=320000,WIDTH=25)         1
-                              TOTAL        96
+                              TOTAL        97
 ----------------------------------------------------------------------
 Report for cell lab3_counter(MAXCOUNT=320000,WIDTH=25).v1
 Instance Path : lab3_scanning_inst.lab2_counter_inst
@@ -67,16 +55,28 @@ Instance Path : lab3_scanning_inst.lab2_counter_inst
                                cell     count   Res Usage(%)
                                 FA2        13           28.3
                             FD1P3XZ        25           18.4
-                               LUT4        33           13.5
-                              TOTAL        71
+                               LUT4        42           17.1
+                              TOTAL        80
 ----------------------------------------------------------------------
-Report for cell lab3_scanfsm.v1
-Instance Path : lab3_scanfsm_inst
+Report for cell lab3_debouncer.v1
+Instance Path : lab3_debouncer_inst
                                   Cell usage:
                                cell     count   Res Usage(%)
-                            FD1P3XZ         3            2.2
-                               LUT4         7            2.9
-                              TOTAL        10
+                                FA2        11           23.9
+                            FD1P3XZ        23           16.9
+                               LUT4        33           13.4
+SUB MODULES
+lab3_counter(MAXCOUNT=524289,WIDTH=20)         1
+                              TOTAL        68
+----------------------------------------------------------------------
+Report for cell lab3_counter(MAXCOUNT=524289,WIDTH=20).v1
+Instance Path : lab3_debouncer_inst.lab3_counter_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        11           23.9
+                            FD1P3XZ        20           14.7
+                               LUT4        20            8.1
+                              TOTAL        51
 ----------------------------------------------------------------------
 Report for cell lab3_press_value.v1
 Instance Path : lab3_press_value_inst
@@ -84,14 +84,14 @@ Instance Path : lab3_press_value_inst
                                cell     count   Res Usage(%)
                                 FA2        11           23.9
                             FD1P3XZ        36           26.5
-                               LUT4        64           26.2
+                               LUT4        65           26.4
 SUB MODULES
 lab3_counter(MAXCOUNT=178000,WIDTH=20)         1
                     lab3_presslogic         1
                  lab3_presslogic_U0         1
                  lab3_presslogic_U1         1
                  lab3_presslogic_U2         1
-                              TOTAL       116
+                              TOTAL       117
 ----------------------------------------------------------------------
 Report for cell lab3_counter(MAXCOUNT=178000,WIDTH=20).v1
 Instance Path : lab3_press_value_inst.lab3_counter_inst
@@ -141,13 +141,21 @@ Instance Path : lab3_synchronizer_col
                             FD1P3XZ         8            5.9
                               TOTAL         8
 ----------------------------------------------------------------------
+Report for cell lab3_synchronizer.v1
+Instance Path : lab3_synchronizer_row
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1P3XZ         8            5.9
+                               LUT4         5            2.0
+                              TOTAL        13
+----------------------------------------------------------------------
 Report for cell lab3_mux.v1
 Instance Path : lab3_mux_inst
                                   Cell usage:
                                cell     count   Res Usage(%)
                                 FA2        11           23.9
                             FD1P3XZ        21           15.4
-                               LUT4        34           13.9
+                               LUT4        34           13.8
 SUB MODULES
 lab3_counter(MAXCOUNT=40000,WIDTH=20)         1
                               TOTAL        67
@@ -158,8 +166,15 @@ Instance Path : lab3_mux_inst.lab3_counter_inst
                                cell     count   Res Usage(%)
                                 FA2        11           23.9
                             FD1P3XZ        21           15.4
-                               LUT4        29           11.9
+                               LUT4        29           11.8
                               TOTAL        61
+----------------------------------------------------------------------
+Report for cell lab3_7_seg_decoder.v1
+Instance Path : lab3_7_seg_decoder_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         7            2.8
+                              TOTAL         7
 ----------------------------------------------------------------------
 Report for cell lab3_display.v1
 Instance Path : lab3_display_inst
@@ -167,18 +182,3 @@ Instance Path : lab3_display_inst
                                cell     count   Res Usage(%)
                             FD1P3XZ        12            8.8
                               TOTAL        12
-----------------------------------------------------------------------
-Report for cell lab3_synchronizer.v1
-Instance Path : lab3_synchronizer_row
-                                  Cell usage:
-                               cell     count   Res Usage(%)
-                            FD1P3XZ         8            5.9
-                               LUT4         4            1.6
-                              TOTAL        12
-----------------------------------------------------------------------
-Report for cell lab3_7_seg_decoder.v1
-Instance Path : lab3_7_seg_decoder_inst
-                                  Cell usage:
-                               cell     count   Res Usage(%)
-                               LUT4         7            2.9
-                              TOTAL         7
