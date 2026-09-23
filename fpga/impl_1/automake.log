@@ -1,4 +1,508 @@
 
+"C:/lscc/radiant/2026.1/tcltk/windows/bin/tclsh" "lab3_ei_impl_1_synthesize.tcl"
+
+cpe -syn lse -f lab3_ei_impl_1.cprj -a iCE40UP -o lab3_ei_impl_1_cpe.ldc
+CPE: Constraint Propagation Engine: starting
+INFO <35831038> - Setting lab3_ei as top module.
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\standard.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\standard.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\standard.vhd(9): analyzing package standard. VHDL-1014
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\std_1164.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\std_1164.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\std_1164.vhd(15): analyzing package std_logic_1164. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\std_1164.vhd(178): analyzing package body std_logic_1164. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\mgc_qsim.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\mgc_qsim.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\mgc_qsim.vhd(18): analyzing package qsim_logic. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\mgc_qsim.vhd(753): analyzing package body qsim_logic. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\numeric_bit.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\numeric_bit.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\numeric_bit.vhd(54): analyzing package numeric_bit. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\numeric_bit.vhd(834): analyzing package body numeric_bit. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\numeric_std.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\numeric_std.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\numeric_std.vhd(57): analyzing package numeric_std. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\numeric_std.vhd(874): analyzing package body numeric_std. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\textio.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\textio.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\textio.vhd(13): analyzing package textio. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\textio.vhd(114): analyzing package body textio. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\std_logic_textio.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\std_logic_textio.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\std_logic_textio.vhd(26): analyzing package std_logic_textio. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\std_logic_textio.vhd(72): analyzing package body std_logic_textio. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_misc.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_misc.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_misc.vhd(30): analyzing package std_logic_misc. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_misc.vhd(182): analyzing package body std_logic_misc. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\math_real.vhd. VHDL-1481
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\math_real.vhd(56): analyzing package math_real. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\math_real.vhd(685): analyzing package body math_real. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\mixed_lang_vltype.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\mixed_lang_vltype.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\mixed_lang_vltype.vhd(9): analyzing package vl_types. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\mixed_lang_vltype.vhd(88): analyzing package body vl_types. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_arit.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_arit.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_arit.vhd(25): analyzing package std_logic_arith. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_arit.vhd(206): analyzing package body std_logic_arith. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_attr.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_attr.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_attr.vhd(39): analyzing package attributes. VHDL-1014
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_sign.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_sign.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_sign.vhd(35): analyzing package std_logic_signed. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_sign.vhd(96): analyzing package body std_logic_signed. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_unsi.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_unsi.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_unsi.vhd(35): analyzing package std_logic_unsigned. VHDL-1014
+INFO <35921013> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\syn_unsi.vhd(94): analyzing package body std_logic_unsigned. VHDL-1013
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\synattr.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\synattr.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ispfpga\vhdl_packages\synattr.vhd(50): analyzing package attributes. VHDL-1014
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\vhdl\iCE40UP.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\vhdl\iCE40UP.vhd
+
+Analyzing Verilog file C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v. VERI-1482
+Analyzing Verilog file C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v. VERI-1482
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(1): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_addsub.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_addsub.v(40): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/adder_subtractor/rtl/lscc_add_sub.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(2): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_add.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_add.v(50): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/adder/rtl/lscc_adder.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(3): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_complex_mult.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_complex_mult.v(52): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/complex_mult/rtl/lscc_complex_mult.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(4): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_counter.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_counter.v(39): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/counter/rtl/lscc_cntr.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(5): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_fifo.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_fifo.v(44): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/fifo/rtl/lscc_fifo.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(6): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_fifo_dc.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_fifo_dc.v(47): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/fifo_dc/rtl/lscc_fifo_dc.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_fifo_dc.v(48): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(128): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_distributed_ram.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(129): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_ecc.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(130): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_flag_and_cnts_logic.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(131): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_gray_reg.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(132): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_gray_synchronizer.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(133): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_harden_prim.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(134): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_harden_rd_ctrl_logic.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(135): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_harden_rd_output_logic.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(136): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_harden_ring_counter.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(137): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_harden_wr_ctrl_logic.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(138): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_harden.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(139): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_prim_gen.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(140): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_rd_ctrl_logic.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc.v(141): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/fifo_dc/rtl/lscc_lfmxo4_fifo_dc_wr_ctrl_logic.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(7): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_mac.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_mac.v(52): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/mult_accumulate/rtl/lscc_mult_accumulate.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(8): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_multaddsubsum.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_multaddsubsum.v(53): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/mult_add_sub_sum/rtl/lscc_mult_add_sub_sum.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(9): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_multaddsub.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_multaddsub.v(52): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/mult_add_sub/rtl/lscc_mult_add_sub.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(10): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_mult.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_mult.v(51): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/multiplier/rtl/lscc_multiplier.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(11): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dp.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dp.v(48): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dp.v(49): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v(438): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v(64): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_behavioral.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v(66): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_lut_decode.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v(478): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_functions.vh. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v(609): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_functions.vh. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v(1511): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_functions.vh. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v(2456): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_functions.vh. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v(4673): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_functions.vh. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(12): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dq.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dq.v(45): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dq.v(46): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v(2839): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/hsiao_ecc_encoder.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v(2840): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/hsiao_ecc_decoder.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v(2841): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq_lut_decode.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(13): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_rom.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_rom.v(45): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/rom/rtl/lscc_rom.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(14): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_sub.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_sub.v(50): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/subtractor/rtl/lscc_subtractor.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(15): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dp_be.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dp_be.v(49): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/ram_dp/rtl/lscc_ram_dp.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dp_be.v(50): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp.v(438): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dp/rtl/lscc_lfmxo4_ram_dp_impl.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(16): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dq_be.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dq_be.v(45): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../common/ram_dq/rtl/lscc_ram_dq.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_ram_dq_be.v(46): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v(2839): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/hsiao_ecc_encoder.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v(2840): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/hsiao_ecc_decoder.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq.v(2841): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/../LFMXO4/ram_dq/rtl/lscc_lfmxo4_ram_dq_lut_decode.v. VERI-1328
+INFO <35901328> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v(17): analyzing included file C:/lscc/radiant/2026.1/ip/pmi/pmi_dsp.v. VERI-1328
+Analyzing Verilog file C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_7_seg_decoder.sv. VERI-1482
+Analyzing Verilog file C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_counter.sv. VERI-1482
+Analyzing Verilog file C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_ei.sv. VERI-1482
+Analyzing Verilog file C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_scanning.sv. VERI-1482
+Analyzing Verilog file C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_debouncer.sv. VERI-1482
+Analyzing Verilog file C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_press_value.sv. VERI-1482
+Analyzing Verilog file C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_presslogic.sv. VERI-1482
+Analyzing Verilog file C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_synchronizer.sv. VERI-1482
+Analyzing Verilog file C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_scanfsm.sv. VERI-1482
+Analyzing Verilog file C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_mux.sv. VERI-1482
+Analyzing Verilog file C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_display.sv. VERI-1482
+Analyzing VHDL file C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd. VHDL-1481
+Analyzing VHDL file C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd
+
+INFO <35921014> - C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd(4): analyzing package components. VHDL-1014
+Top module name (Verilog): lab3_ei
+INFO <35901018> - C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_ei.sv(8): compiling module lab3_ei. VERI-1018
+INFO <35901018> - C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_synchronizer.sv(6): compiling module lab3_synchronizer. VERI-1018
+INFO <35901018> - C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_debouncer.sv(7): compiling module lab3_debouncer. VERI-1018
+INFO <35901018> - C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_counter.sv(6): compiling module lab3_counter(MAXCOUNT=524289,WIDTH=20). VERI-1018
+INFO <35901018> - C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_press_value.sv(7): compiling module lab3_press_value. VERI-1018
+INFO <35901018> - C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_counter.sv(6): compiling module lab3_counter(MAXCOUNT=178000,WIDTH=20). VERI-1018
+INFO <35901018> - C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_presslogic.sv(6): compiling module lab3_presslogic. VERI-1018
+INFO <35901018> - C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_mux.sv(7): compiling module lab3_mux. VERI-1018
+INFO <35901018> - C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_counter.sv(6): compiling module lab3_counter(MAXCOUNT=40000,WIDTH=20). VERI-1018
+INFO <35901018> - C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_scanfsm.sv(6): compiling module lab3_scanfsm. VERI-1018
+INFO <35901018> - C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_display.sv(7): compiling module lab3_display. VERI-1018
+INFO <35901018> - C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_7_seg_decoder.sv(7): compiling module lab3_7_seg_decoder. VERI-1018
+INFO <35901018> - C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_scanning.sv(8): compiling module lab3_scanning. VERI-1018
+INFO <35901018> - C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_counter.sv(6): compiling module lab3_counter(MAXCOUNT=320000,WIDTH=25). VERI-1018
+Source compile complete.
+Writing output files.
+CPE Completed. lab3_ei_impl_1_cpe.ldc and CPEReport.txt produced.
+CPE: Constraint Propagation Engine: completed
+
+
+
+synthesis -f C:/Users/eing/Documents/GitHub/e155-lab3/fpga/impl_1/lab3_ei_impl_1_lattice.synproj -logfile lab3_ei_impl_1_lattice.srp
+synthesis:  version Radiant Software (64-bit) 2026.1.0.37.0
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2026 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Sep 23 02:41:38 2026
+
+
+Command Line:  C:\lscc\radiant\2026.1\ispfpga\bin\nt64\synthesis.exe -f C:/Users/eing/Documents/GitHub/e155-lab3/fpga/impl_1/lab3_ei_impl_1_lattice.synproj -logfile lab3_ei_impl_1_lattice.srp -gui -msgset C:/Users/eing/Documents/GitHub/e155-lab3/fpga/promote.xml 
+
+Lattice Synthesis Engine launched.
+
+Synthesis options:
+The -a option is iCE40UP.
+The -t option is SG48.
+The -sp option is High-Performance_1.2V.
+The -p option is iCE40UP5K.
+
+###################### Device Information ######################
+----------------------------------------------------------------
+Lattice Family        | iCE40UP
+----------------------------------------------------------------
+Device                | iCE40UP5K
+----------------------------------------------------------------
+Package               | SG48
+----------------------------------------------------------------
+Performance Grade     | High-Performance_1.2V
+----------------------------------------------------------------
+################################################################
+
+####################### Device Resources #######################
+----------------------------------------------------------------
+Logic Cells           | 5280
+----------------------------------------------------------------
+RAM Blocks            | 30
+----------------------------------------------------------------
+DSP Blocks            | 8
+----------------------------------------------------------------
+PLLs                  | 1
+----------------------------------------------------------------
+I/O Pins              | 56
+----------------------------------------------------------------
+################################################################
+
+Resolving user-selected strategy settings...
+
+INFO <35001797> - Use DCC Insertion disabled by default.
+
+###################### Strategy Settings #######################
+----------------------------------------------------------------
+Optimization Goal     | Area
+----------------------------------------------------------------
+Top-level Module Name | lab3_ei
+----------------------------------------------------------------
+Target Frequency      | 200.000 MHz
+----------------------------------------------------------------
+Maximum Fanout        | 1000
+----------------------------------------------------------------
+Timing Path Count     | 3
+----------------------------------------------------------------
+RAM Read/Write Check  | False
+----------------------------------------------------------------
+BRAM Utilization      | 100.0%
+----------------------------------------------------------------
+DSP Usage             | True
+----------------------------------------------------------------
+DSP Utilization       | 100.0%
+----------------------------------------------------------------
+FSM Encoding Style    | Auto
+----------------------------------------------------------------
+Resolve Mixed Drivers | False
+----------------------------------------------------------------
+Fix Gated Clocks      | True
+----------------------------------------------------------------
+Mux Style             | Auto
+----------------------------------------------------------------
+Use Carry Chain       | True
+----------------------------------------------------------------
+Carry Chain Length    | Infinite
+----------------------------------------------------------------
+Loop Limit            | 1950
+----------------------------------------------------------------
+Use I/O Insertion     | True
+----------------------------------------------------------------
+Use I/O Registers     | True
+----------------------------------------------------------------
+Resource Sharing      | True
+----------------------------------------------------------------
+Propagate Constants   | True
+----------------------------------------------------------------
+Remove Duplicate Reg  | True
+----------------------------------------------------------------
+Force GSR             | False
+----------------------------------------------------------------
+ROM Style             | Auto
+----------------------------------------------------------------
+RAM Style             | Auto
+----------------------------------------------------------------
+Remove LOC Properties | False
+----------------------------------------------------------------
+Partition Flow        | False
+----------------------------------------------------------------
+Use DCC Insertion     | None
+----------------------------------------------------------------
+################################################################
+
+
+The -comp option is FALSE.
+The -syn option is FALSE.
+
+Output HDL filename: lab3_ei_impl_1.vm
+-sdc option: SDC file input is lab3_ei_impl_1_cpe.ldc.
+-path . (searchpath added)
+-path .. (searchpath added)
+-path ../source/impl_1 (searchpath added)
+-path C:/lscc/radiant/2026.1/ispfpga/ice40tp/data (searchpath added)
+Mixed language design
+Verilog design file: C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v
+Verilog design file: ../source/impl_1/lab3_7_seg_decoder.sv
+Verilog design file: ../source/impl_1/lab3_counter.sv
+Verilog design file: ../source/impl_1/lab3_ei.sv
+Verilog design file: ../source/impl_1/lab3_scanning.sv
+Verilog design file: ../source/impl_1/lab3_debouncer.sv
+Verilog design file: ../source/impl_1/lab3_press_value.sv
+Verilog design file: ../source/impl_1/lab3_presslogic.sv
+Verilog design file: ../source/impl_1/lab3_synchronizer.sv
+Verilog design file: ../source/impl_1/lab3_scanfsm.sv
+Verilog design file: ../source/impl_1/lab3_mux.sv
+Verilog design file: ../source/impl_1/lab3_display.sv
+VHDL library: pmi
+VHDL design file: C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd
+
+Compiling design...
+
+Analyzing Verilog file C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\generic.v. VERI-1482
+Analyzing Verilog file C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v. VERI-1482
+Analyzing Verilog file C:/lscc/radiant/2026.1/ispfpga\..\cae_library\synthesis\verilog\iCE40UP.v. VERI-1482
+Analyzing Verilog file C:/lscc/radiant/2026.1/ispfpga\..\cae_library\simulation\verilog\iCE40UP\iCE40UP_sp.v. VERI-1482
+Analyzing Verilog file C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v. VERI-1482
+Analyzing Verilog file ../source/impl_1/lab3_7_seg_decoder.sv. VERI-1482
+Analyzing Verilog file ../source/impl_1/lab3_counter.sv. VERI-1482
+Analyzing Verilog file ../source/impl_1/lab3_ei.sv. VERI-1482
+Analyzing Verilog file ../source/impl_1/lab3_scanning.sv. VERI-1482
+Analyzing Verilog file ../source/impl_1/lab3_debouncer.sv. VERI-1482
+Analyzing Verilog file ../source/impl_1/lab3_press_value.sv. VERI-1482
+Analyzing Verilog file ../source/impl_1/lab3_presslogic.sv. VERI-1482
+Analyzing Verilog file ../source/impl_1/lab3_synchronizer.sv. VERI-1482
+Analyzing Verilog file ../source/impl_1/lab3_scanfsm.sv. VERI-1482
+Analyzing Verilog file ../source/impl_1/lab3_mux.sv. VERI-1482
+Analyzing Verilog file ../source/impl_1/lab3_display.sv. VERI-1482
+Top module name (Verilog): lab3_ei
+INFO <35901018> - ../source/impl_1/lab3_ei.sv(8): compiling module lab3_ei. VERI-1018
+INFO <35901018> - ../source/impl_1/lab3_synchronizer.sv(6): compiling module lab3_synchronizer. VERI-1018
+INFO <35901018> - ../source/impl_1/lab3_debouncer.sv(7): compiling module lab3_debouncer. VERI-1018
+INFO <35901018> - ../source/impl_1/lab3_counter.sv(6): compiling module lab3_counter(MAXCOUNT=524289,WIDTH=20). VERI-1018
+INFO <35901018> - ../source/impl_1/lab3_press_value.sv(7): compiling module lab3_press_value. VERI-1018
+INFO <35901018> - ../source/impl_1/lab3_counter.sv(6): compiling module lab3_counter(MAXCOUNT=178000,WIDTH=20). VERI-1018
+INFO <35901018> - ../source/impl_1/lab3_presslogic.sv(6): compiling module lab3_presslogic. VERI-1018
+INFO <35901018> - ../source/impl_1/lab3_mux.sv(7): compiling module lab3_mux. VERI-1018
+INFO <35901018> - ../source/impl_1/lab3_counter.sv(6): compiling module lab3_counter(MAXCOUNT=40000,WIDTH=20). VERI-1018
+INFO <35901018> - ../source/impl_1/lab3_scanfsm.sv(6): compiling module lab3_scanfsm. VERI-1018
+INFO <35901018> - ../source/impl_1/lab3_display.sv(7): compiling module lab3_display. VERI-1018
+INFO <35901018> - ../source/impl_1/lab3_7_seg_decoder.sv(7): compiling module lab3_7_seg_decoder. VERI-1018
+INFO <35901018> - ../source/impl_1/lab3_scanning.sv(8): compiling module lab3_scanning. VERI-1018
+INFO <35901018> - ../source/impl_1/lab3_counter.sv(6): compiling module lab3_counter(MAXCOUNT=320000,WIDTH=25). VERI-1018
+[Parameter Setting Section Start]
+
+	[Parameter Settings for Instance(s): hf_osc]
+	(Module: HSOSC)
+		CLKHF_DIV                 "0b00"
+
+	[Parameter Settings for Instance(s): lab3_synchronizer_row, lab3_synchronizer_col]
+	(Module: lab3_synchronizer)
+		WIDTH                     4
+
+	[Parameter Settings for Instance(s): lab3_counter_inst]
+	(Module: lab3_counter)
+		MAXCOUNT                  524289
+		WIDTH                     20
+
+	[Parameter Settings for Instance(s): lab3_counter_inst]
+	(Module: lab3_counter)
+		MAXCOUNT                  178000
+		WIDTH                     20
+
+	[Parameter Settings for Instance(s): ff_r0, ff_r1, ff_r2, ff_r3]
+	(Module: lab3_presslogic)
+		WIDTH                     4
+
+	[Parameter Settings for Instance(s): lab3_counter_inst]
+	(Module: lab3_counter)
+		MAXCOUNT                  40000
+		WIDTH                     20
+
+	[Parameter Settings for Instance(s): lab2_counter_inst]
+	(Module: lab3_counter)
+		MAXCOUNT                  320000
+		WIDTH                     25
+
+[Parameter Setting Section End]
+INFO <35001774> - Extracted state machine for register '\lab3_debouncer_inst/state' with one-hot encoding
+State machine has 3 reachable states with original encodings of:
+
+ 00 
+
+ 01 
+
+ 10 
+
+original encoding -> new encoding (one-hot encoding)
+
+ 00 -> 001
+
+ 01 -> 010
+
+ 10 -> 100
+
+
+
+
+WARNING <35002062> - Port rejected for I/O register mapping: nreset
+WARNING <35002062> - Port rejected for I/O register mapping: col[3]
+WARNING <35002062> - Port rejected for I/O register mapping: col[2]
+WARNING <35002062> - Port rejected for I/O register mapping: col[1]
+WARNING <35002062> - Port rejected for I/O register mapping: col[0]
+WARNING <35002062> - Port rejected for I/O register mapping: enable
+WARNING <35002062> - Port rejected for I/O register mapping: seg[6]
+WARNING <35002062> - Port rejected for I/O register mapping: seg[5]
+WARNING <35002062> - Port rejected for I/O register mapping: seg[4]
+WARNING <35002062> - Port rejected for I/O register mapping: seg[3]
+WARNING <35002062> - Port rejected for I/O register mapping: seg[2]
+WARNING <35002062> - Port rejected for I/O register mapping: seg[1]
+WARNING <35002062> - Port rejected for I/O register mapping: seg[0]
+WARNING <35002062> - Port rejected for I/O register mapping: row[3]
+WARNING <35002062> - Port rejected for I/O register mapping: row[2]
+WARNING <35002062> - Port rejected for I/O register mapping: row[1]
+WARNING <35002062> - Port rejected for I/O register mapping: row[0]
+WARNING <35002062> - Port rejected for I/O register mapping: d1
+WARNING <35002062> - Port rejected for I/O register mapping: d0
+
+################### Begin Area Report (lab3_ei)######################
+Number of register bits => 136 of 5280 (2 % )
+CCU2 => 46
+FD1P3XZ => 136
+HSOSC_CORE => 1
+IB => 6
+LUT4 => 244
+OB => 13
+################### End Area Report ##################
+Number of odd-length carry chains : 1
+Number of even-length carry chains : 3
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 1
+  Net : clk, loads : 0
+Clock Enable Nets
+Number of Clock Enables: 0
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : lab3_mux_inst/lab3_counter_inst/n3, loads : 72
+  Net : n1068, loads : 47
+  Net : lab3_press_value_inst/lab3_counter_inst/n329, loads : 37
+  Net : lab3_scanning_inst/lab2_counter_inst/n3181, loads : 36
+  Net : lab3_mux_inst/lab3_counter_inst/n4, loads : 33
+  Net : nreset_c, loads : 26
+  Net : n1103, loads : 23
+  Net : lab3_debouncer_inst/lab3_counter_inst/counter[19], loads : 23
+  Net : lab3_debouncer_inst/n5, loads : 20
+  Net : lab3_scanning_inst/lab2_counter_inst/n33[24], loads : 15
+################### End Clock Report ##################
+
+################### Begin Constraint Report ######################
+Constraint Summary:
+  Total number of constraints: 0
+  Total number of constraints dropped: 0
+###################  End Constraint Report  ######################
+
+Peak Memory Usage: 91 MB
+
+--------------------------------------------------------------
+Total CPU Time: 0 secs 
+Total REAL Time: 0 secs 
+--------------------------------------------------------------
+Checksum -- synthesis -- netlist: 9d5dc5fcd7482a07cd9aba7e1c2ed851aea849a6
+
+
+
+postsyn -a iCE40UP -p iCE40UP5K -t SG48 -sp High-Performance_1.2V -oc Industrial -top -w -o lab3_ei_impl_1_syn.udb lab3_ei_impl_1.vm -ldc lab3_ei_impl_1.ldc
+POSTSYN: Post Synthesis Process Radiant Software (64-bit) 2026.1.0.37.0
+Command Line: postsyn -a iCE40UP -p iCE40UP5K -t SG48 -sp High-Performance_1.2V -oc Industrial -top -w -o lab3_ei_impl_1_syn.udb -ldc lab3_ei_impl_1.ldc -gui -msgset C:/Users/eing/Documents/GitHub/e155-lab3/fpga/promote.xml lab3_ei_impl_1.vm 
+   Architecture:     iCE40UP
+   Device:           iCE40UP5K
+   Package:          SG48
+   Performance:      High-Performance_1.2V
+Reading input file 'lab3_ei_impl_1.vm' ...
+CPU Time to convert: 0.078125
+REAL Time to convert: 0
+convert PEAK Memory Usage: 36 MB
+convert CURRENT Memory Usage: 36 MB
+Reading constraint file 'lab3_ei_impl_1.ldc' ...
+Removing unused logic ...
+Starting design annotation....
+ 
+Constraint Summary:
+   Total number of constraints: 2
+   Total number of constraints dropped: 0
+ 
+Writing output file 'lab3_ei_impl_1_syn.udb'.
+POSTSYN finished successfully.
+Total CPU Time: 0 secs 
+Total REAL Time: 0 secs 
+Peak Memory Usage: 43 MB
+Checksum -- postsyn: 67f3886ca1e4a0139fc31c5fb391dbd6e3dc4f4e
+
+
+
 pnmainc -log pnmain "lab3_ei_impl_1_map.tcl"
 map:  version Radiant Software (64-bit) 2026.1.0.37.0
 
@@ -29,8 +533,8 @@ Running general design DRC...
 Design Summary:
    Number of slice registers: 136 out of  5280 (3%)
    Number of I/O registers:      0 out of   117 (0%)
-   Number of LUT4s:           356 out of  5280 (7%)
-      Number of logic LUT4s:             244
+   Number of LUT4s:           357 out of  5280 (7%)
+      Number of logic LUT4s:             245
       Number of inserted feedthru LUT4s:  20
       Number of ripple logic:             46 (92 LUT4s)
    Number of IO sites used:   19 out of 39 (49%)
@@ -58,25 +562,25 @@ Design Summary:
       Net clk: 127 loads, 127 rising, 0 falling (Driver: Pin hf_osc/CLKHF)
    Number of Clock Enables:  4
       Net VCC_net: 1 loads, 0 SLICEs
-      Net n1140: 46 loads, 46 SLICEs
-      Net n1171: 20 loads, 20 SLICEs
-      Net lab3_display_inst.n1041: 8 loads, 8 SLICEs
+      Net n1045: 8 loads, 8 SLICEs
+      Net n1103: 20 loads, 20 SLICEs
+      Net n1068: 46 loads, 46 SLICEs
    Number of LSRs:  4
-      Net n3: 69 loads, 69 SLICEs
-      Net lab3_scanfsm_inst.n323: 1 loads, 1 SLICEs
       Net n5: 20 loads, 20 SLICEs
-      Net lab3_press_value_inst.lab3_counter_inst.n331: 11 loads, 11 SLICEs
+      Net n3: 72 loads, 72 SLICEs
+      Net lab3_scanfsm_inst.n321: 1 loads, 1 SLICEs
+      Net lab3_press_value_inst.lab3_counter_inst.n329: 11 loads, 11 SLICEs
    Top 10 highest fanout non-clock nets:
-      Net n3: 69 loads
-      Net n1140: 46 loads
-      Net nreset_c: 30 loads
+      Net n3: 72 loads
+      Net n1068: 46 loads
+      Net nreset_c: 29 loads
       Net lab3_debouncer_inst.counter[19]: 25 loads
-      Net lab3_scanning_inst.lab2_counter_inst.n3014: 25 loads
+      Net lab3_scanning_inst.lab2_counter_inst.n3181: 25 loads
       Net lab3_mux_inst.lab3_counter_inst.n4: 21 loads
-      Net n1171: 20 loads
+      Net n1103: 20 loads
       Net n5: 20 loads
-      Net key[4]: 13 loads
-      Net key[5]: 13 loads
+      Net key[12]: 11 loads
+      Net key[13]: 11 loads
 Running physical design DRC...
 
  
@@ -95,14 +599,14 @@ Total CPU Time: 0 secs
 Total REAL Time: 0 secs  
 Peak Memory Usage: 71 MB
 
-Checksum -- map: 174f892d35e474ebb5cb95ccf04b3fee9ecd363
-**** CMD map_run - CPU/Elapsed: 0 secs / 0 secs , MEM/Increased: 59.666 Mb/ 0.180 Mb, DATE: 01:10:46 09/23/26
+Checksum -- map: f783be09168ac13397a953a0cdd68ec6bc9c2c21
+**** CMD map_run - CPU/Elapsed: 0 secs / 0 secs , MEM/Increased: 59.732 Mb/ 0.176 Mb, DATE: 02:41:40 09/23/26
 Thank you for using Radiant. Total CPU/Elapsed time: 0 secs /0 secs 
 
 pnmainc -log pnmain "lab3_ei_impl_1_par.tcl"
 
 PAR: Place And Route Radiant Software (64-bit) 2026.1.0.37.0.
-PARed on: Wed Sep 23 01:10:46 2026
+PARed on: Wed Sep 23 02:41:41 2026
 
 Command Line: par -w -t 1 -cores 1 -hsp m -exp parPathBased=ON \
 	lab3_ei_impl_1_map.udb lab3_ei_impl_1_par.dir/5_1.udb 
@@ -110,7 +614,7 @@ Command Line: par -w -t 1 -cores 1 -hsp m -exp parPathBased=ON \
 Loading lab3_ei_impl_1_map.udb ...
 Loading device for application GENERIC from file 'itpa08.nph' in environment: C:/lscc/radiant/2026.1/ispfpga.
 Package Status:                     Preliminary    Version 1.5.
-Successfully read the udb in 1.00 s.
+Successfully read the udb in 0.00 s.
 
 Performance Hardware Data Status:   Advanced       Version 1.0.
 
@@ -130,17 +634,17 @@ Successfully loaded device info and constraints in 0.00 s.
 
 Beginning Place Design 
 Phase 1 Placer Initialization 
-Number of Signals: 580
-Number of Connections: 1497
-Phase 1 Placer Initialization Complete: Time (s) - CPU Time : 0.02, Real Time : 0.01  |   Memory (MB) - Peak Memory : 83.24, Gain Memory : 4.58  
+Number of Signals: 581
+Number of Connections: 1486
+Phase 1 Placer Initialization Complete: Time (s) - CPU Time : 0.02, Real Time : 0.00  |   Memory (MB) - Peak Memory : 84.30, Gain Memory : 4.54  
 
-Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 83.24 ; gain = 4.58 
+Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 84.30 ; gain = 4.54 
 
 Phase 2 Logic Packing 
 Device utilization summary:
 
-   SLICE (est.)     184/2640          7% used
-     LUT            356/5280          7% used
+   SLICE (est.)     190/2640          7% used
+     LUT            357/5280          7% used
      REG            136/5280          3% used
    PIO               19/56           34% used
                      19/36           52% bonded
@@ -161,68 +665,68 @@ Device utilization summary:
    I3C                0/2             0% used
    OPENDRAIN          0/3             0% used
 
-Phase 2 Logic Packing Complete: Time (s) - CPU Time : 0.00, Real Time : 0.01  |   Memory (MB) - Peak Memory : 83.43, Gain Memory : 0.15  
+Phase 2 Logic Packing Complete: Time (s) - CPU Time : 0.02, Real Time : 0.00  |   Memory (MB) - Peak Memory : 84.43, Gain Memory : 0.09  
 
-Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 83.43 ; gain = 0.15 
+Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 84.43 ; gain = 0.09 
 
 Phase 3 Hierarchical Placement 
 Pin Constraint Summary:
    19 out of 19 pins locked (100% locked).
 Phase 3.1 Clustering & Global Placement 
-Phase 3.1 Clustering & Global Placement Complete: Time (s) - CPU Time : 0.00, Real Time : 0.00  |   Memory (MB) - Peak Memory : 84.21, Gain Memory : 0.00  
+Phase 3.1 Clustering & Global Placement Complete: Time (s) - CPU Time : 0.00, Real Time : 0.00  |   Memory (MB) - Peak Memory : 85.00, Gain Memory : 0.00  
 
-Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 84.21 ; gain = 0.00 
+Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 85.00 ; gain = 0.00 
 
-Phase 3 Hierarchical Placement Complete: Time (s) - CPU Time : 0.02, Real Time : 0.01  |   Memory (MB) - Peak Memory : 84.23, Gain Memory : 0.80  
+Phase 3 Hierarchical Placement Complete: Time (s) - CPU Time : 0.00, Real Time : 0.01  |   Memory (MB) - Peak Memory : 85.02, Gain Memory : 0.59  
 
-Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 84.23 ; gain = 0.80 
+Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 85.02 ; gain = 0.59 
 
 Phase 4 Apollo Placement 
 
-......................
+..................
 Finished Placer Phase 0 (AP).  CPU time: 0 secs , REAL time: 0 secs 
 
-Phase 4 Apollo Placement Complete: Time (s) - CPU Time : 0.31, Real Time : 0.32  |   Memory (MB) - Peak Memory : 89.93, Gain Memory : 5.70  
+Phase 4 Apollo Placement Complete: Time (s) - CPU Time : 0.27, Real Time : 0.27  |   Memory (MB) - Peak Memory : 89.42, Gain Memory : 4.40  
 
-Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 89.93 ; gain = 5.70 
+Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 89.42 ; gain = 4.40 
 
 Phase 5 Constructive Placement 
 Phase 5.1 Iterative Refinement 
 ..  ..
 ....................
 
-Placer score = 69357.
+Placer score = 111786.
 
 Device SLICE utilization summary after final SLICE packing:
-   SLICE            183/2640          6% used
+   SLICE            187/2640          7% used
 
-Phase 5.1 Iterative Refinement Complete: Time (s) - CPU Time : 4.84, Real Time : 4.90  |   Memory (MB) - Peak Memory : 114.86, Gain Memory : 24.93  
+Phase 5.1 Iterative Refinement Complete: Time (s) - CPU Time : 5.17, Real Time : 5.18  |   Memory (MB) - Peak Memory : 103.48, Gain Memory : 14.07  
 
-Time: cpu = 00:00:05 ; elapsed : 00:00:05 . Memory (MB): peak = 114.86 ; gain = 24.93 
+Time: cpu = 00:00:05 ; elapsed : 00:00:05 . Memory (MB): peak = 103.48 ; gain = 14.07 
 
-Phase 5 Constructive Placement Complete: Time (s) - CPU Time : 4.84, Real Time : 4.90  |   Memory (MB) - Peak Memory : 114.86, Gain Memory : 24.93  
+Phase 5 Constructive Placement Complete: Time (s) - CPU Time : 5.17, Real Time : 5.18  |   Memory (MB) - Peak Memory : 103.48, Gain Memory : 14.07  
 
-Time: cpu = 00:00:05 ; elapsed : 00:00:05 . Memory (MB): peak = 114.86 ; gain = 24.93 
+Time: cpu = 00:00:05 ; elapsed : 00:00:05 . Memory (MB): peak = 103.48 ; gain = 14.07 
 
 Phase 6 Placement Optimization 
 Phase 6.1 Local Optimization 
 .
 
-Placer score =  68638
-Phase 6.1 Local Optimization Complete: Time (s) - CPU Time : 0.05, Real Time : 0.05  |   Memory (MB) - Peak Memory : 114.86, Gain Memory : 11.16  
+Placer score =  67206
+Phase 6.1 Local Optimization Complete: Time (s) - CPU Time : 0.06, Real Time : 0.06  |   Memory (MB) - Peak Memory : 103.48, Gain Memory : 3.06  
 
-Time: cpu = 00:00:05 ; elapsed : 00:00:05 . Memory (MB): peak = 114.86 ; gain = 11.16 
+Time: cpu = 00:00:06 ; elapsed : 00:00:06 . Memory (MB): peak = 103.48 ; gain = 3.06 
 
-Phase 6 Placement Optimization Complete: Time (s) - CPU Time : 0.05, Real Time : 0.05  |   Memory (MB) - Peak Memory : 114.86, Gain Memory : 11.16  
+Phase 6 Placement Optimization Complete: Time (s) - CPU Time : 0.06, Real Time : 0.06  |   Memory (MB) - Peak Memory : 103.48, Gain Memory : 3.06  
 
-Time: cpu = 00:00:05 ; elapsed : 00:00:05 . Memory (MB): peak = 114.86 ; gain = 11.16 
+Time: cpu = 00:00:06 ; elapsed : 00:00:06 . Memory (MB): peak = 103.48 ; gain = 3.06 
 
 Phase 7 IC1PL_TKPP 
 
 ------------------ Clock Report ------------------
 
 Global Clocks :
-  PRIMARY "clk" from comp "hf_osc" on site "HFOSC_R1C32", clk load = 72, ce load = 0, sr load = 0
+  PRIMARY "clk" from comp "hf_osc" on site "HFOSC_R1C32", clk load = 71, ce load = 0, sr load = 0
 
   PRIMARY  : 1 out of 8 (12%)
 
@@ -244,33 +748,33 @@ I/O Bank Usage Summary:
 | 2        | 8 / 8 (100%)  | 3.3V       |            |            |
 +----------+---------------+------------+------------+------------+
 
-Phase 7 IC1PL_TKPP Complete: Time (s) - CPU Time : 0.00, Real Time : 0.01  |   Memory (MB) - Peak Memory : 114.86, Gain Memory : 10.93  
+Phase 7 IC1PL_TKPP Complete: Time (s) - CPU Time : 0.00, Real Time : 0.00  |   Memory (MB) - Peak Memory : 103.48, Gain Memory : 3.03  
 
-Time: cpu = 00:00:05 ; elapsed : 00:00:05 . Memory (MB): peak = 114.86 ; gain = 10.93 
+Time: cpu = 00:00:06 ; elapsed : 00:00:06 . Memory (MB): peak = 103.48 ; gain = 3.03 
 
-Total Placer CPU time: 5 secs, REAL time = 5 secs
+Total Placer CPU time: 6 secs, REAL time = 6 secs
 
 
-Checksum -- place: 63e0fe21db83666e8a8ee23c8d0c5c08dcb84060
-Ending Place Design : Time (s) - CPU Time : 5.28, Real Time : 5.35  |   Memory (MB) - Peak Memory : 114.86, Gain Memory : 36.21  
+Checksum -- place: fafacd087f977a1217cbcd108aec6dd3eae00293
+Ending Place Design : Time (s) - CPU Time : 5.56, Real Time : 5.58  |   Memory (MB) - Peak Memory : 103.48, Gain Memory : 23.74  
 
-Time: cpu = 00:00:05 ; elapsed : 00:00:05 . Memory (MB): peak = 114.86 ; gain = 36.21 
+Time: cpu = 00:00:06 ; elapsed : 00:00:06 . Memory (MB): peak = 103.48 ; gain = 23.74 
 
 
  Phase Summary Table: 	
 +--------------------------------------------------------+-------------+--------------+-----------------+----------------+
 | Phase Name                                             | CPU Time(s) | Wall Time(s) | Peak Memory(MB) | Memory Gain(MB)|
 +--------------------------------------------------------+-------------+--------------+-----------------+----------------+
-| Phase 1 Placer Initialization                          | 0.02        |         0.01 |           83.24 |           4.58 |
-| Phase 2 Logic Packing                                  | 0.00        |         0.01 |           83.43 |           0.15 |
-| Phase 3 Hierarchical Placement                         | 0.02        |         0.01 |           84.23 |           0.80 |
-| Phase 3.1 Clustering & Global Placement                | 0.00        |         0.00 |           84.21 |           0.00 |
-| Phase 4 Apollo Placement                               | 0.31        |         0.32 |           89.93 |           5.70 |
-| Phase 5 Constructive Placement                         | 4.84        |         4.90 |          114.86 |          24.93 |
-| Phase 5.1 Iterative Refinement                         | 4.84        |         4.90 |          114.86 |          24.93 |
-| Phase 6 Placement Optimization                         | 0.05        |         0.05 |          114.86 |          11.16 |
-| Phase 6.1 Local Optimization                           | 0.05        |         0.05 |          114.86 |          11.16 |
-| Phase 7 IC1PL_TKPP                                     | 0.00        |         0.01 |          114.86 |          10.93 |
+| Phase 1 Placer Initialization                          | 0.02        |         0.00 |           84.30 |           4.54 |
+| Phase 2 Logic Packing                                  | 0.02        |         0.00 |           84.43 |           0.09 |
+| Phase 3 Hierarchical Placement                         | 0.00        |         0.01 |           85.02 |           0.59 |
+| Phase 3.1 Clustering & Global Placement                | 0.00        |         0.00 |           85.00 |           0.00 |
+| Phase 4 Apollo Placement                               | 0.27        |         0.27 |           89.42 |           4.40 |
+| Phase 5 Constructive Placement                         | 5.17        |         5.18 |          103.48 |          14.07 |
+| Phase 5.1 Iterative Refinement                         | 5.17        |         5.18 |          103.48 |          14.07 |
+| Phase 6 Placement Optimization                         | 0.06        |         0.06 |          103.48 |           3.06 |
+| Phase 6.1 Local Optimization                           | 0.06        |         0.06 |          103.48 |           3.06 |
+| Phase 7 IC1PL_TKPP                                     | 0.00        |         0.00 |          103.48 |           3.03 |
 +--------------------------------------------------------+-------------+--------------+-----------------+----------------+
 Writing design to file lab3_ei_impl_1_par.dir/5_1.udb ...
 
@@ -278,7 +782,7 @@ Starting Route Task
 Beginning Route Design 
 Phase 1 Build Route Design 
 
-Start NBR router at 01:10:52 09/23/26
+Start NBR router at 02:41:47 09/23/26
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -293,126 +797,126 @@ Note: NBR uses a different method to calculate timing slacks. The
       tool to verify your design.                                
 *****************************************************************
 
-Phase 1 Build Route Design Complete: Time (s) - CPU Time : 0.05, Real Time : 0.04  |   Memory (MB) - Peak Memory : 114.86, Gain Memory : 33.13  
+Phase 1 Build Route Design Complete: Time (s) - CPU Time : 0.03, Real Time : 0.04  |   Memory (MB) - Peak Memory : 103.48, Gain Memory : 20.03  
 
-Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 114.86 ; gain = 33.13 
+Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 103.48 ; gain = 20.03 
 
 Phase 2 Design Checks and Routing Setup 
-Phase 2 Design Checks and Routing Setup Complete: Time (s) - CPU Time : 0.00, Real Time : 0.00  |   Memory (MB) - Peak Memory : 114.86, Gain Memory : 14.40  
+Phase 2 Design Checks and Routing Setup Complete: Time (s) - CPU Time : 0.00, Real Time : 0.00  |   Memory (MB) - Peak Memory : 103.48, Gain Memory : 1.29  
 
-Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 114.86 ; gain = 14.40 
+Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 103.48 ; gain = 1.29 
 
 Phase 3 Dedicated Net and Clock Routing 
 Phase 3.1 Routing User Constraints 
-Phase 3.1 Routing User Constraints Complete: Time (s) - CPU Time : 0.28, Real Time : 0.29  |   Memory (MB) - Peak Memory : 116.95, Gain Memory : 16.49  
+Phase 3.1 Routing User Constraints Complete: Time (s) - CPU Time : 0.30, Real Time : 0.29  |   Memory (MB) - Peak Memory : 116.77, Gain Memory : 14.58  
 
-Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 116.95 ; gain = 16.49 
+Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 116.77 ; gain = 14.58 
 
 Phase 3.2 Dedicated Routing 
-Phase 3.2 Dedicated Routing Complete: Time (s) - CPU Time : 0.02, Real Time : 0.00  |   Memory (MB) - Peak Memory : 116.95, Gain Memory : 15.20  
+Phase 3.2 Dedicated Routing Complete: Time (s) - CPU Time : 0.00, Real Time : 0.00  |   Memory (MB) - Peak Memory : 116.77, Gain Memory : 16.39  
 
-Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 116.95 ; gain = 15.20 
+Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 116.77 ; gain = 16.39 
 
 Phase 3.3 Clock Net Routing 
-Phase 3.3 Clock Net Routing Complete: Time (s) - CPU Time : 0.00, Real Time : 0.00  |   Memory (MB) - Peak Memory : 116.95, Gain Memory : 19.43  
+Phase 3.3 Clock Net Routing Complete: Time (s) - CPU Time : 0.00, Real Time : 0.00  |   Memory (MB) - Peak Memory : 116.77, Gain Memory : 19.55  
 
-Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 116.95 ; gain = 19.43 
+Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 116.77 ; gain = 19.55 
 
 Phase 3.4 Dedicated Net and Clock Routing Finalization 
 Preassignment Summary:
 --------------------------------------------------------------------------------
 1 global clock signals routed
-296 connections routed (of 1363 total) (21.72%)
+295 connections routed (of 1349 total) (21.87%)
 ---------------------------------------------------------
 Clock routing summary:
 Primary clocks (1 used out of 8 available):
 #4  Signal "clk"
-       Clock   loads: 72    out of    72 routed (100.00%)
+       Clock   loads: 71    out of    71 routed (100.00%)
 ---------------------------------------------------------
 --------------------------------------------------------------------------------
-Phase 3.4 Dedicated Net and Clock Routing Finalization Complete: Time (s) - CPU Time : 0.00, Real Time : 0.00  |   Memory (MB) - Peak Memory : 116.95, Gain Memory : 19.37  
+Phase 3.4 Dedicated Net and Clock Routing Finalization Complete: Time (s) - CPU Time : 0.00, Real Time : 0.00  |   Memory (MB) - Peak Memory : 116.77, Gain Memory : 19.50  
 
-Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 116.95 ; gain = 19.37 
+Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 116.77 ; gain = 19.50 
 
 Total conns with timing constraints =        0
-Phase 3 Dedicated Net and Clock Routing Complete: Time (s) - CPU Time : 0.36, Real Time : 0.37  |   Memory (MB) - Peak Memory : 116.95, Gain Memory : 16.49  
+Phase 3 Dedicated Net and Clock Routing Complete: Time (s) - CPU Time : 0.38, Real Time : 0.37  |   Memory (MB) - Peak Memory : 116.77, Gain Memory : 14.58  
 
-Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 116.95 ; gain = 16.49 
+Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 116.77 ; gain = 14.58 
 
 Phase 4 Pre-Detailed Routing 
-Phase 4 Pre-Detailed Routing Complete: Time (s) - CPU Time : 0.00, Real Time : 0.00  |   Memory (MB) - Peak Memory : 116.95, Gain Memory : 17.88  
+Phase 4 Pre-Detailed Routing Complete: Time (s) - CPU Time : 0.00, Real Time : 0.00  |   Memory (MB) - Peak Memory : 116.77, Gain Memory : 18.00  
 
-Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 116.95 ; gain = 17.88 
+Time: cpu = 00:00:00 ; elapsed : 00:00:00 . Memory (MB): peak = 116.77 ; gain = 18.00 
 
 Phase 5 Detailed Routing 
     TimerIf::skewscore 0
 Phase 5.1 Initial Detailed Routing 
 
-Start NBR section for initial routing at 01:10:53 09/23/26
+Start NBR section for initial routing at 02:41:47 09/23/26
 Level 4, iteration 1
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Routing in Serial Mode ......
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-65(0.02%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 2.554ns/0.000ns; real time: 0 secs 
+54(0.02%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 0.439ns/0.000ns; real time: 0 secs 
 
 Info: Initial congestion level at 75.00% usage is 0
 Info: Initial congestion area  at 75.00% usage is 0 (0.00%)
-Phase 5.1 Initial Detailed Routing Complete: Time (s) - CPU Time : 0.70, Real Time : 0.71  |   Memory (MB) - Peak Memory : 125.79, Gain Memory : 26.71  
+Phase 5.1 Initial Detailed Routing Complete: Time (s) - CPU Time : 0.75, Real Time : 0.77  |   Memory (MB) - Peak Memory : 125.87, Gain Memory : 27.10  
 
-Time: cpu = 00:00:01 ; elapsed : 00:00:01 . Memory (MB): peak = 125.79 ; gain = 26.71 
+Time: cpu = 00:00:01 ; elapsed : 00:00:01 . Memory (MB): peak = 125.87 ; gain = 27.10 
 
 Phase 5.2 Rip-Up and Route 
 
-Start NBR section for normal routing at 01:10:53 09/23/26
+Start NBR section for normal routing at 02:41:48 09/23/26
 Level 4, iteration 1
-11(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 2.554ns/0.000ns; real time: 0 secs 
+13(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.826ns/0.000ns; real time: 0 secs 
 Level 4, iteration 2
-7(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 2.554ns/0.000ns; real time: 0 secs 
+9(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.548ns/0.000ns; real time: 0 secs 
 Level 4, iteration 3
-3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 2.554ns/0.000ns; real time: 0 secs 
+8(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.826ns/0.000ns; real time: 0 secs 
 Level 4, iteration 4
-3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 2.554ns/0.000ns; real time: 0 secs 
+6(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.548ns/0.000ns; real time: 0 secs 
 Level 4, iteration 5
-2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 2.554ns/0.000ns; real time: 0 secs 
+3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.548ns/0.000ns; real time: 0 secs 
 Level 4, iteration 6
-1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 2.554ns/0.000ns; real time: 0 secs 
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.496ns/0.000ns; real time: 0 secs 
 Level 4, iteration 7
-1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 2.554ns/0.000ns; real time: 0 secs 
+2(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 1.496ns/0.000ns; real time: 0 secs 
 Level 4, iteration 8
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 2.554ns/0.000ns; real time: 2 secs 
-Phase 5.2 Rip-Up and Route Complete: Time (s) - CPU Time : 0.12, Real Time : 0.13  |   Memory (MB) - Peak Memory : 125.84, Gain Memory : 0.04  
+Estimated worst slack/total negative slack<setup>: 1.231ns/0.000ns; real time: 0 secs 
+Phase 5.2 Rip-Up and Route Complete: Time (s) - CPU Time : 0.19, Real Time : 0.19  |   Memory (MB) - Peak Memory : 125.98, Gain Memory : 0.11  
 
-Time: cpu = 00:00:01 ; elapsed : 00:00:01 . Memory (MB): peak = 125.84 ; gain = 0.04 
+Time: cpu = 00:00:01 ; elapsed : 00:00:01 . Memory (MB): peak = 125.98 ; gain = 0.11 
 
 Phase 5.3 Rip-Up and Reroute for setup timing improvement 
-Phase 5.3 Rip-Up and Reroute for setup timing improvement Complete: Time (s) - CPU Time : 0.00, Real Time : 0.00  |   Memory (MB) - Peak Memory : 125.84, Gain Memory : 0.00  
+Phase 5.3 Rip-Up and Reroute for setup timing improvement Complete: Time (s) - CPU Time : 0.00, Real Time : 0.00  |   Memory (MB) - Peak Memory : 125.98, Gain Memory : 0.00  
 
-Time: cpu = 00:00:01 ; elapsed : 00:00:01 . Memory (MB): peak = 125.84 ; gain = 0.00 
+Time: cpu = 00:00:01 ; elapsed : 00:00:01 . Memory (MB): peak = 125.98 ; gain = 0.00 
 
 Phase 5.4 Rip-Up and Reroute for hold timing fix 
 
-Start NBR section for setup/hold timing optimization with effort level 3 at 01:10:54 09/23/26
+Start NBR section for setup/hold timing optimization with effort level 3 at 02:41:48 09/23/26
 Changing speed to m;   changing temperature to -40
 Changing speed to 6;   changing temperature to 100
-Phase 5.4 Rip-Up and Reroute for hold timing fix Complete: Time (s) - CPU Time : 0.19, Real Time : 0.18  |   Memory (MB) - Peak Memory : 133.05, Gain Memory : 7.22  
+Phase 5.4 Rip-Up and Reroute for hold timing fix Complete: Time (s) - CPU Time : 0.19, Real Time : 0.19  |   Memory (MB) - Peak Memory : 133.05, Gain Memory : 7.07  
 
-Time: cpu = 00:00:01 ; elapsed : 00:00:01 . Memory (MB): peak = 133.05 ; gain = 7.22 
+Time: cpu = 00:00:02 ; elapsed : 00:00:02 . Memory (MB): peak = 133.05 ; gain = 7.07 
 
 Phase 5.5 TNS CleanUp 
 
-Start NBR section for post-routing at 01:10:54 09/23/26
-Phase 5.5 TNS CleanUp Complete: Time (s) - CPU Time : 0.02, Real Time : 0.01  |   Memory (MB) - Peak Memory : 133.05, Gain Memory : 1.52  
+Start NBR section for post-routing at 02:41:48 09/23/26
+Phase 5.5 TNS CleanUp Complete: Time (s) - CPU Time : 0.00, Real Time : 0.01  |   Memory (MB) - Peak Memory : 133.05, Gain Memory : 1.21  
 
-Time: cpu = 00:00:01 ; elapsed : 00:00:01 . Memory (MB): peak = 133.05 ; gain = 1.52 
+Time: cpu = 00:00:02 ; elapsed : 00:00:02 . Memory (MB): peak = 133.05 ; gain = 1.21 
 
 Phase 5.6 Detail Routing Finalization 
 
@@ -420,49 +924,49 @@ End NBR router with 0 unrouted connection(s)
 Changing speed to m;   changing temperature to -40
 Changing speed to 6;   changing temperature to 100
 
-Checksum -- route: cea5336c15f99e262eaffc5139ceb56e951f1f08
-Phase 5.6 Detail Routing Finalization Complete: Time (s) - CPU Time : 0.34, Real Time : 0.34  |   Memory (MB) - Peak Memory : 133.05, Gain Memory : 1.51  
+Checksum -- route: 614a121f93b1a5ffbb6cf0a45f2cc5aa89d7cda5
+Phase 5.6 Detail Routing Finalization Complete: Time (s) - CPU Time : 0.34, Real Time : 0.34  |   Memory (MB) - Peak Memory : 133.05, Gain Memory : 1.20  
 
-Time: cpu = 00:00:02 ; elapsed : 00:00:02 . Memory (MB): peak = 133.05 ; gain = 1.51 
+Time: cpu = 00:00:02 ; elapsed : 00:00:02 . Memory (MB): peak = 133.05 ; gain = 1.20 
 
 
-Phase 5 Detailed Routing Complete: Time (s) - CPU Time : 1.38, Real Time : 1.37  |   Memory (MB) - Peak Memory : 133.05, Gain Memory : 33.98  
+Phase 5 Detailed Routing Complete: Time (s) - CPU Time : 1.48, Real Time : 1.50  |   Memory (MB) - Peak Memory : 133.05, Gain Memory : 34.28  
 
-Time: cpu = 00:00:02 ; elapsed : 00:00:02 . Memory (MB): peak = 133.05 ; gain = 33.98 
+Time: cpu = 00:00:02 ; elapsed : 00:00:02 . Memory (MB): peak = 133.05 ; gain = 34.28 
 
 Phase 6 Router Finalization 
-Total Router CPU time 1 secs , REAL time: 2 secs 
+Total Router CPU time 1 secs , REAL time: 0 secs 
 Completely routed.
-End of route.  1363 routed (100.00%); 0 unrouted.
-Phase 6 Router Finalization Complete: Time (s) - CPU Time : 0.00, Real Time : 0.01  |   Memory (MB) - Peak Memory : 133.05, Gain Memory : 1.12  
+End of route.  1349 routed (100.00%); 0 unrouted.
+Phase 6 Router Finalization Complete: Time (s) - CPU Time : 0.00, Real Time : 0.01  |   Memory (MB) - Peak Memory : 133.05, Gain Memory : 0.93  
 
-Time: cpu = 00:00:02 ; elapsed : 00:00:02 . Memory (MB): peak = 133.05 ; gain = 1.12 
+Time: cpu = 00:00:02 ; elapsed : 00:00:02 . Memory (MB): peak = 133.05 ; gain = 0.93 
 
-Ending Route Design : Time (s) - CPU Time : 1.83, Real Time : 1.83  |   Memory (MB) - Peak Memory : 133.05, Gain Memory : 48.88  
+Ending Route Design : Time (s) - CPU Time : 1.92, Real Time : 1.96  |   Memory (MB) - Peak Memory : 133.05, Gain Memory : 49.63  
 
-Time: cpu = 00:00:02 ; elapsed : 00:00:02 . Memory (MB): peak = 133.05 ; gain = 48.88 
+Time: cpu = 00:00:02 ; elapsed : 00:00:02 . Memory (MB): peak = 133.05 ; gain = 49.63 
 
 
  Phase Summary Table: 	
 +--------------------------------------------------------+-------------+--------------+-----------------+----------------+
 | Phase Name                                             | CPU Time(s) | Wall Time(s) | Peak Memory(MB) | Memory Gain(MB)|
 +--------------------------------------------------------+-------------+--------------+-----------------+----------------+
-| Phase 1 Build Route Design                             | 0.05        |         0.04 |          114.86 |          33.13 |
-| Phase 2 Design Checks and Routing Setup                | 0.00        |         0.00 |          114.86 |          14.40 |
-| Phase 3 Dedicated Net and Clock Routing                | 0.36        |         0.37 |          116.95 |          16.49 |
-| Phase 3.1 Routing User Constraints                     | 0.28        |         0.29 |          116.95 |          16.49 |
-| Phase 3.2 Dedicated Routing                            | 0.02        |         0.00 |          116.95 |          15.20 |
-| Phase 3.3 Clock Net Routing                            | 0.00        |         0.00 |          116.95 |          19.43 |
-| Phase 3.4 Dedicated Net and Clock Routing Finalization | 0.00        |         0.00 |          116.95 |          19.37 |
-| Phase 4 Pre-Detailed Routing                           | 0.00        |         0.00 |          116.95 |          17.88 |
-| Phase 5 Detailed Routing                               | 1.38        |         1.37 |          133.05 |          33.98 |
-| Phase 5.1 Initial Detailed Routing                     | 0.70        |         0.71 |          125.79 |          26.71 |
-| Phase 5.2 Rip-Up and Route                             | 0.12        |         0.13 |          125.84 |           0.04 |
-| Phase 5.3 Rip-Up and Reroute for setup timing improve* | 0.00        |         0.00 |          125.84 |           0.00 |
-| Phase 5.4 Rip-Up and Reroute for hold timing fix       | 0.19        |         0.18 |          133.05 |           7.22 |
-| Phase 5.5 TNS CleanUp                                  | 0.02        |         0.01 |          133.05 |           1.52 |
-| Phase 5.6 Detail Routing Finalization                  | 0.34        |         0.34 |          133.05 |           1.51 |
-| Phase 6 Router Finalization                            | 0.00        |         0.01 |          133.05 |           1.12 |
+| Phase 1 Build Route Design                             | 0.03        |         0.04 |          103.48 |          20.03 |
+| Phase 2 Design Checks and Routing Setup                | 0.00        |         0.00 |          103.48 |           1.29 |
+| Phase 3 Dedicated Net and Clock Routing                | 0.38        |         0.37 |          116.77 |          14.58 |
+| Phase 3.1 Routing User Constraints                     | 0.30        |         0.29 |          116.77 |          14.58 |
+| Phase 3.2 Dedicated Routing                            | 0.00        |         0.00 |          116.77 |          16.39 |
+| Phase 3.3 Clock Net Routing                            | 0.00        |         0.00 |          116.77 |          19.55 |
+| Phase 3.4 Dedicated Net and Clock Routing Finalization | 0.00        |         0.00 |          116.77 |          19.50 |
+| Phase 4 Pre-Detailed Routing                           | 0.00        |         0.00 |          116.77 |          18.00 |
+| Phase 5 Detailed Routing                               | 1.48        |         1.50 |          133.05 |          34.28 |
+| Phase 5.1 Initial Detailed Routing                     | 0.75        |         0.77 |          125.87 |          27.10 |
+| Phase 5.2 Rip-Up and Route                             | 0.19        |         0.19 |          125.98 |           0.11 |
+| Phase 5.3 Rip-Up and Reroute for setup timing improve* | 0.00        |         0.00 |          125.98 |           0.00 |
+| Phase 5.4 Rip-Up and Reroute for hold timing fix       | 0.19        |         0.19 |          133.05 |           7.07 |
+| Phase 5.5 TNS CleanUp                                  | 0.00        |         0.01 |          133.05 |           1.21 |
+| Phase 5.6 Detail Routing Finalization                  | 0.34        |         0.34 |          133.05 |           1.20 |
+| Phase 6 Router Finalization                            | 0.00        |         0.01 |          133.05 |           0.93 |
 +--------------------------------------------------------+-------------+--------------+-----------------+----------------+
 
 Writing design to file lab3_ei_impl_1_par.dir/5_1.udb ...
@@ -470,7 +974,7 @@ Writing design to file lab3_ei_impl_1_par.dir/5_1.udb ...
 
 PAR_SUMMARY::Run status = Completed
 PAR_SUMMARY::Number of unrouted conns = 0
-PAR_SUMMARY::Estimated worst slack<setup/<ns>> = 3.087
+PAR_SUMMARY::Estimated worst slack<setup/<ns>> = 1.498
 PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
 PAR_SUMMARY::Estimated worst slack<hold/<ns>> = 1.743
 PAR_SUMMARY::Timing score<hold/<ns>> = 0.000
@@ -478,7 +982,7 @@ PAR_SUMMARY::Number of errors = 0
 
 Note: user must run 'timing' for timing closure signoff.
 
-Total CPU  Time: 7 secs 
+Total CPU  Time: 8 secs 
 Total REAL Time: 8 secs 
 Peak Memory Usage: 133.05 MB
 
@@ -490,8 +994,8 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2026 Lattice Semiconductor Corporation,  All rights reserved.
-**** CMD par_run - CPU/Elapsed: 0 secs / 8 secs , MEM/Increased: 59.834 Mb/ 0.205 Mb, DATE: 01:10:54 09/23/26
-Thank you for using Radiant. Total CPU/Elapsed time: 0 secs /8 secs 
+**** CMD par_run - CPU/Elapsed: 0 secs / 8 secs , MEM/Increased: 59.736 Mb/ 0.205 Mb, DATE: 02:41:49 09/23/26
+Thank you for using Radiant. Total CPU/Elapsed time: 0 secs /9 secs 
 
 timing -sethld -v 10 -u 10 -endpoints 10 -nperend 1 -sp High-Performance_1.2V -hsp m   -pwrprd -html -rpt "lab3_ei_impl_1.twr" "lab3_ei_impl_1.udb" 
 timing -sethld -v 10 -u 10 -endpoints 10 -nperend 1 -sp High-Performance_1.2V -hsp m -pwrprd -html -rpt lab3_ei_impl_1.twr lab3_ei_impl_1.udb -gui -msgset C:/Users/eing/Documents/GitHub/e155-lab3/fpga/promote.xml
@@ -508,14 +1012,14 @@ Performance Grade:   High-Performance_1.2V
 
 
 
-Successfully loading udb, 0.08 seconds
+Successfully loading udb, 0.03 seconds
 
 Initializing timer
 Starting design annotation....
 
 Starting full timing analysis...
 Performance Hardware Data Status:   Advanced       Version 1.0.
-Connections ignored  72  counted  1280  covered  1120
+Connections ignored  71  counted  1267  covered  1113
 Changing speed to m;   changing temperature to -40
 
 STA Runtime and Peak Memory Usage :
@@ -523,7 +1027,7 @@ Total CPU Time: 0 secs
 Total REAL Time: 0 secs 
 Peak Memory Usage: 104 MB
 
- 0.807966s wall, 0.781250s user + 0.062500s system = 0.843750s CPU (104.4%)
+ 0.811418s wall, 0.734375s user + 0.078125s system = 0.812500s CPU (100.1%)
 
 
 tmcheck -par "lab3_ei_impl_1.par"  
@@ -532,7 +1036,7 @@ pnmainc -log pnmain "lab3_ei_impl_1_bit.tcl"
 Loading lab3_ei_impl_1.udb ...
 Loading device for application GENERIC from file 'itpa08.nph' in environment: C:/lscc/radiant/2026.1/ispfpga.
 Package Status:                     Preliminary    Version 1.5.
-Successfully read the udb in 1.00 s.
+Successfully read the udb in 0.00 s.
 
 Performance Hardware Data Status:   Advanced       Version 1.0.
 
@@ -581,5 +1085,5 @@ Total CPU Time: 0 secs
 Total REAL Time: 0 secs 
 Peak Memory Usage: 121 MB
 
-**** CMD bit_generate - CPU/Elapsed: 0 secs / 0 secs , MEM/Increased: 59.519 Mb/ 0.213 Mb, DATE: 01:10:56 09/23/26
+**** CMD bit_generate - CPU/Elapsed: 0 secs / 0 secs , MEM/Increased: 59.716 Mb/ 0.209 Mb, DATE: 02:41:50 09/23/26
 Thank you for using Radiant. Total CPU/Elapsed time: 0 secs /0 secs 

@@ -15,7 +15,7 @@ module lab3_mux(
 );
 
 	logic digit_clk;
-	logic [15:0] digit_counter;
+	logic [19:0] digit_counter;
 	
 	// Instantiate counter module -- 10.9 ms for 48 MHz for signal on/off
 	lab3_counter #(.MAXCOUNT(40_000), .WIDTH(20)) lab3_counter_inst (.clk(clk), .nreset(nreset), .enable(enable), .counter(digit_counter), .clk_new(digit_clk));

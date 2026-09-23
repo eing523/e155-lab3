@@ -815,16 +815,6 @@
             <Navigation>6</Navigation>
         </Message>
         <Message>
-            <ID>35901330</ID>
-            <Severity>16</Severity>
-            <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_press_value.sv(33): </Dynamic>
-            <Dynamic>17</Dynamic>
-            <Dynamic>20</Dynamic>
-            <Dynamic>counter</Dynamic>
-            <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_press_value.sv</Navigation>
-            <Navigation>33</Navigation>
-        </Message>
-        <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
             <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_presslogic.sv(6): </Dynamic>
@@ -847,16 +837,6 @@
             <Dynamic>lab3_counter(MAXCOUNT=40000,WIDTH=20)</Dynamic>
             <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_counter.sv</Navigation>
             <Navigation>6</Navigation>
-        </Message>
-        <Message>
-            <ID>35901330</ID>
-            <Severity>16</Severity>
-            <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_mux.sv(21): </Dynamic>
-            <Dynamic>16</Dynamic>
-            <Dynamic>20</Dynamic>
-            <Dynamic>counter</Dynamic>
-            <Navigation>C:/Users/eing/Documents/GitHub/e155-lab3/fpga/source/impl_1/lab3_mux.sv</Navigation>
-            <Navigation>21</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
@@ -951,16 +931,6 @@
             <Navigation>6</Navigation>
         </Message>
         <Message>
-            <ID>35901330</ID>
-            <Severity>16</Severity>
-            <Dynamic>../source/impl_1/lab3_press_value.sv(33): </Dynamic>
-            <Dynamic>17</Dynamic>
-            <Dynamic>20</Dynamic>
-            <Dynamic>counter</Dynamic>
-            <Navigation>../source/impl_1/lab3_press_value.sv</Navigation>
-            <Navigation>33</Navigation>
-        </Message>
-        <Message>
             <ID>35901018</ID>
             <Severity>1</Severity>
             <Dynamic>../source/impl_1/lab3_presslogic.sv(6): </Dynamic>
@@ -983,16 +953,6 @@
             <Dynamic>lab3_counter(MAXCOUNT=40000,WIDTH=20)</Dynamic>
             <Navigation>../source/impl_1/lab3_counter.sv</Navigation>
             <Navigation>6</Navigation>
-        </Message>
-        <Message>
-            <ID>35901330</ID>
-            <Severity>16</Severity>
-            <Dynamic>../source/impl_1/lab3_mux.sv(21): </Dynamic>
-            <Dynamic>16</Dynamic>
-            <Dynamic>20</Dynamic>
-            <Dynamic>counter</Dynamic>
-            <Navigation>../source/impl_1/lab3_mux.sv</Navigation>
-            <Navigation>21</Navigation>
         </Message>
         <Message>
             <ID>35901018</ID>
