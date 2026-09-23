@@ -25,7 +25,7 @@ module lab3_press_value (
 	assign {key[10], key[3:1]} = q_out_r0;
 	assign {key[11], key[6:4]} = q_out_r1;
 	assign {key[12], key[9:7]} = q_out_r2;
-	assign {key[14], key[13], key[0], key[15]}  = q_out_r3;
+	assign {key[13], key[15], key[0], key[14]}  = q_out_r3;
 
 	assign read = (press_count == 17'd50000);
 
@@ -33,16 +33,16 @@ module lab3_press_value (
 	lab3_counter #(.MAXCOUNT(178000), .WIDTH(20)) lab3_counter_inst (.clk(clk), .nreset(nreset), .enable(1'b1), .counter(press_count), .clk_new(clk_new));
 
 	// sequential logic block for a hardware flip-flop register
-    lab3_presslogic ff_r0 (.clk(clk), .nreset(nreset), .enable(row_sync[0] & read), .d_in(~col_sync), .q_out(q_out_r0));
+    lab3_presslogic ff_r0 (.clk(clk), .nreset(nreset), .enable(~row_sync[0] & read), .d_in(~col_sync), .q_out(q_out_r0));
 	
 	// sequential logic block for a hardware flip-flop register
-    lab3_presslogic ff_r1 (.clk(clk), .nreset(nreset), .enable(row_sync[1] & read), .d_in(~col_sync), .q_out(q_out_r1));
+    lab3_presslogic ff_r1 (.clk(clk), .nreset(nreset), .enable(~row_sync[1] & read), .d_in(~col_sync), .q_out(q_out_r1));
 	
 	// sequential logic block for a hardware flip-flop register
-    lab3_presslogic ff_r2 (.clk(clk), .nreset(nreset), .enable(row_sync[2] & read), .d_in(~col_sync), .q_out(q_out_r2));
+    lab3_presslogic ff_r2 (.clk(clk), .nreset(nreset), .enable(~row_sync[2] & read), .d_in(~col_sync), .q_out(q_out_r2));
 	
 	// sequential logic block for a hardware flip-flop register
-    lab3_presslogic ff_r3 (.clk(clk), .nreset(nreset), .enable(row_sync[3] & read), .d_in(~col_sync), .q_out(q_out_r3));
+    lab3_presslogic ff_r3 (.clk(clk), .nreset(nreset), .enable(~row_sync[3] & read), .d_in(~col_sync), .q_out(q_out_r3));
 	
 	
 	

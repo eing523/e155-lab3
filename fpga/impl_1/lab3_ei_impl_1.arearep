@@ -149,6 +149,13 @@ Instance Path : lab3_synchronizer_row
                                LUT4         5            2.0
                               TOTAL        13
 ----------------------------------------------------------------------
+Report for cell lab3_7_seg_decoder.v1
+Instance Path : lab3_7_seg_decoder_inst
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         7            2.8
+                              TOTAL         7
+----------------------------------------------------------------------
 Report for cell lab3_mux.v1
 Instance Path : lab3_mux_inst
                                   Cell usage:
@@ -168,13 +175,6 @@ Instance Path : lab3_mux_inst.lab3_counter_inst
                             FD1P3XZ        21           15.4
                                LUT4        29           11.8
                               TOTAL        61
-----------------------------------------------------------------------
-Report for cell lab3_7_seg_decoder.v1
-Instance Path : lab3_7_seg_decoder_inst
-                                  Cell usage:
-                               cell     count   Res Usage(%)
-                               LUT4         7            2.8
-                              TOTAL         7
 ----------------------------------------------------------------------
 Report for cell lab3_display.v1
 Instance Path : lab3_display_inst

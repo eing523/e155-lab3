@@ -8,7 +8,7 @@ Package: SG48
 Performance Grade:  High-Performance_1.2V
 
 Mapper:    version Radiant Software (64-bit) 2026.1.0.37.0
-Mapped on: Wed Sep 23 03:13:29 2026
+Mapped on: Wed Sep 23 03:20:36 2026
 
 Design Information
 ------------------
@@ -75,7 +75,7 @@ Design Summary (cont)
       Net n1081: 46 loads
       Net nreset_c: 29 loads
       Net lab3_debouncer_inst.counter[19]: 25 loads
-      Net lab3_scanning_inst.lab2_counter_inst.n2623: 25 loads
+      Net lab3_scanning_inst.lab2_counter_inst.n2972: 25 loads
       Net lab3_mux_inst.lab3_counter_inst.n4: 21 loads
       Net n1115: 20 loads
       Net n5: 20 loads
@@ -183,7 +183,7 @@ Run Time and Memory Usage
    Total CPU Time: 0 secs
    Total REAL Time: 0 secs
    Peak Memory Usage: 70 MB
-Checksum -- map: 3a854a0ea1e88a6ca48970aef41a9257d0166390
+Checksum -- map: cfefdc82ee5dafb3b700db7cc48683b79bac7a5a
 
 
 
